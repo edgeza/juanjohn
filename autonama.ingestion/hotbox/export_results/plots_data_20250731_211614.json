@@ -1,0 +1,584 @@
+{
+  "timestamp": "2025-07-31T21:16:14.800629",
+  "charts_data": {
+    "signal_distribution": {
+      "labels": [
+        "BUY",
+        "SELL",
+        "HOLD"
+      ],
+      "values": [
+        5,
+        7,
+        82
+      ]
+    },
+    "potential_returns": [
+      {
+        "symbol": "ETHUSDT",
+        "potential_return": 19.000700308789327,
+        "signal": "HOLD",
+        "current_price": 3780.09
+      },
+      {
+        "symbol": "USDCUSDT",
+        "potential_return": 0.22164244251360438,
+        "signal": "HOLD",
+        "current_price": 1.0
+      },
+      {
+        "symbol": "BTCUSDT",
+        "potential_return": 11.343071856362354,
+        "signal": "HOLD",
+        "current_price": 117734.78
+      },
+      {
+        "symbol": "SOLUSDT",
+        "potential_return": 98.55488420224944,
+        "signal": "HOLD",
+        "current_price": 178.1
+      },
+      {
+        "symbol": "XRPUSDT",
+        "potential_return": 49.859417552102066,
+        "signal": "HOLD",
+        "current_price": 3.0881
+      },
+      {
+        "symbol": "FDUSDUSDT",
+        "potential_return": 0.0860606526715533,
+        "signal": "HOLD",
+        "current_price": 0.998
+      },
+      {
+        "symbol": "ENAUSDT",
+        "potential_return": 20.299192868646177,
+        "signal": "SELL",
+        "current_price": 0.6031
+      },
+      {
+        "symbol": "BNBUSDT",
+        "potential_return": 8.379643465985643,
+        "signal": "HOLD",
+        "current_price": 801.71
+      },
+      {
+        "symbol": "PENGUUSDT",
+        "potential_return": 54.8672814541283,
+        "signal": "HOLD",
+        "current_price": 0.035871
+      },
+      {
+        "symbol": "SUIUSDT",
+        "potential_return": 40.83256084262994,
+        "signal": "HOLD",
+        "current_price": 3.732
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "potential_return": 27.172813919956614,
+        "signal": "HOLD",
+        "current_price": 0.2159
+      },
+      {
+        "symbol": "TRXUSDT",
+        "potential_return": 29.434862028756157,
+        "signal": "HOLD",
+        "current_price": 0.3284
+      },
+      {
+        "symbol": "PEPEUSDT",
+        "potential_return": 36.883268567085956,
+        "signal": "HOLD",
+        "current_price": 1.114e-05
+      },
+      {
+        "symbol": "ADAUSDT",
+        "potential_return": 75.04251896930647,
+        "signal": "HOLD",
+        "current_price": 0.7574
+      },
+      {
+        "symbol": "BONKUSDT",
+        "potential_return": 32.11683030759741,
+        "signal": "HOLD",
+        "current_price": 2.76e-05
+      },
+      {
+        "symbol": "HBARUSDT",
+        "potential_return": 15.28628220196428,
+        "signal": "HOLD",
+        "current_price": 0.25809
+      },
+      {
+        "symbol": "CFXUSDT",
+        "potential_return": 21.981346954239044,
+        "signal": "SELL",
+        "current_price": 0.2079
+      },
+      {
+        "symbol": "UNIUSDT",
+        "potential_return": 10.302842135510259,
+        "signal": "HOLD",
+        "current_price": 9.608
+      },
+      {
+        "symbol": "LINKUSDT",
+        "potential_return": 27.642358698195213,
+        "signal": "HOLD",
+        "current_price": 17.39
+      },
+      {
+        "symbol": "TONUSDT",
+        "potential_return": 18.60394222820163,
+        "signal": "HOLD",
+        "current_price": 3.576
+      },
+      {
+        "symbol": "CRVUSDT",
+        "potential_return": 43.699157316996136,
+        "signal": "HOLD",
+        "current_price": 0.973
+      },
+      {
+        "symbol": "AVAXUSDT",
+        "potential_return": 32.23009647840932,
+        "signal": "HOLD",
+        "current_price": 22.99
+      },
+      {
+        "symbol": "LTCUSDT",
+        "potential_return": 73.54280958722768,
+        "signal": "HOLD",
+        "current_price": 109.01
+      },
+      {
+        "symbol": "SUSDT",
+        "potential_return": 95.27395025704462,
+        "signal": "HOLD",
+        "current_price": 0.3246
+      },
+      {
+        "symbol": "BCHUSDT",
+        "potential_return": 18.336622495386,
+        "signal": "HOLD",
+        "current_price": 568.8
+      },
+      {
+        "symbol": "XLMUSDT",
+        "potential_return": 52.856131047984235,
+        "signal": "HOLD",
+        "current_price": 0.4096
+      },
+      {
+        "symbol": "WIFUSDT",
+        "potential_return": 32.63256199835069,
+        "signal": "HOLD",
+        "current_price": 0.955
+      },
+      {
+        "symbol": "AAVEUSDT",
+        "potential_return": 26.384438133884796,
+        "signal": "HOLD",
+        "current_price": 268.44
+      },
+      {
+        "symbol": "FLOKIUSDT",
+        "potential_return": 38.34546852023339,
+        "signal": "HOLD",
+        "current_price": 0.00011533
+      },
+      {
+        "symbol": "APTUSDT",
+        "potential_return": 16.41709804214463,
+        "signal": "HOLD",
+        "current_price": 4.431
+      },
+      {
+        "symbol": "WLDUSDT",
+        "potential_return": 41.617496161577186,
+        "signal": "HOLD",
+        "current_price": 1.048
+      },
+      {
+        "symbol": "ARBUSDT",
+        "potential_return": 35.46263640859094,
+        "signal": "HOLD",
+        "current_price": 0.4088
+      },
+      {
+        "symbol": "MEMEUSDT",
+        "potential_return": 22.159171522453132,
+        "signal": "BUY",
+        "current_price": 0.00218
+      },
+      {
+        "symbol": "SEIUSDT",
+        "potential_return": 23.089043558694804,
+        "signal": "HOLD",
+        "current_price": 0.3033
+      },
+      {
+        "symbol": "ONDOUSDT",
+        "potential_return": 15.887057028034674,
+        "signal": "HOLD",
+        "current_price": 0.9546
+      },
+      {
+        "symbol": "DOTUSDT",
+        "potential_return": 35.69156302204487,
+        "signal": "HOLD",
+        "current_price": 3.775
+      },
+      {
+        "symbol": "NEARUSDT",
+        "potential_return": 43.42231556683458,
+        "signal": "HOLD",
+        "current_price": 2.623
+      },
+      {
+        "symbol": "TAOUSDT",
+        "potential_return": 47.28854370693664,
+        "signal": "HOLD",
+        "current_price": 367.8
+      },
+      {
+        "symbol": "TRUMPUSDT",
+        "potential_return": 99.71258488732676,
+        "signal": "HOLD",
+        "current_price": 9.17
+      },
+      {
+        "symbol": "SYRUPUSDT",
+        "potential_return": 36.730918307999325,
+        "signal": "HOLD",
+        "current_price": 0.4212
+      },
+      {
+        "symbol": "OPUSDT",
+        "potential_return": 25.29184585482594,
+        "signal": "HOLD",
+        "current_price": 0.691
+      },
+      {
+        "symbol": "VIRTUALUSDT",
+        "potential_return": 29.749550441516575,
+        "signal": "BUY",
+        "current_price": 1.3063
+      },
+      {
+        "symbol": "INJUSDT",
+        "potential_return": 977.1447021684644,
+        "signal": "HOLD",
+        "current_price": 13.8
+      },
+      {
+        "symbol": "ETHFIUSDT",
+        "potential_return": 39.054844570150664,
+        "signal": "HOLD",
+        "current_price": 1.107
+      },
+      {
+        "symbol": "PNUTUSDT",
+        "potential_return": 195.157501645188,
+        "signal": "HOLD",
+        "current_price": 0.2435
+      },
+      {
+        "symbol": "TIAUSDT",
+        "potential_return": 83.06694023026056,
+        "signal": "SELL",
+        "current_price": 1.757
+      },
+      {
+        "symbol": "EURUSDT",
+        "potential_return": 2.912733161844739,
+        "signal": "BUY",
+        "current_price": 1.143
+      },
+      {
+        "symbol": "CAKEUSDT",
+        "potential_return": 48.57109306134265,
+        "signal": "SELL",
+        "current_price": 2.811
+      },
+      {
+        "symbol": "SHIBUSDT",
+        "potential_return": 26.868249313489006,
+        "signal": "HOLD",
+        "current_price": 1.275e-05
+      },
+      {
+        "symbol": "FILUSDT",
+        "potential_return": 28.44354877161155,
+        "signal": "HOLD",
+        "current_price": 2.455
+      },
+      {
+        "symbol": "FETUSDT",
+        "potential_return": 73.28953798084275,
+        "signal": "HOLD",
+        "current_price": 0.681
+      },
+      {
+        "symbol": "NEIROUSDT",
+        "potential_return": 45.92901145140475,
+        "signal": "HOLD",
+        "current_price": 0.00041769
+      },
+      {
+        "symbol": "KERNELUSDT",
+        "potential_return": 20.756881671331072,
+        "signal": "HOLD",
+        "current_price": 0.1987
+      },
+      {
+        "symbol": "USD1USDT",
+        "potential_return": 0.12563508915889693,
+        "signal": "HOLD",
+        "current_price": 0.9991
+      },
+      {
+        "symbol": "OMNIUSDT",
+        "potential_return": 80.5724214273252,
+        "signal": "HOLD",
+        "current_price": 4.61
+      },
+      {
+        "symbol": "SOPHUSDT",
+        "potential_return": 40.418572114462194,
+        "signal": "HOLD",
+        "current_price": 0.04192
+      },
+      {
+        "symbol": "PENDLEUSDT",
+        "potential_return": 37.34155884555011,
+        "signal": "HOLD",
+        "current_price": 4.288
+      },
+      {
+        "symbol": "ATMUSDT",
+        "potential_return": 19.505196972918874,
+        "signal": "SELL",
+        "current_price": 1.579
+      },
+      {
+        "symbol": "BANANAS31USDT",
+        "potential_return": 61.58587517356568,
+        "signal": "BUY",
+        "current_price": 0.007326
+      },
+      {
+        "symbol": "ALGOUSDT",
+        "potential_return": 60.812601900021775,
+        "signal": "HOLD",
+        "current_price": 0.253
+      },
+      {
+        "symbol": "LDOUSDT",
+        "potential_return": 30.090903517007927,
+        "signal": "HOLD",
+        "current_price": 0.988
+      },
+      {
+        "symbol": "INITUSDT",
+        "potential_return": 143.98983099168788,
+        "signal": "HOLD",
+        "current_price": 0.4297
+      },
+      {
+        "symbol": "IOTXUSDT",
+        "potential_return": 7.095699478085506,
+        "signal": "HOLD",
+        "current_price": 0.02885
+      },
+      {
+        "symbol": "PAXGUSDT",
+        "potential_return": 4.626998860687755,
+        "signal": "HOLD",
+        "current_price": 3300.65
+      },
+      {
+        "symbol": "ENSUSDT",
+        "potential_return": 31.30030151118216,
+        "signal": "HOLD",
+        "current_price": 27.6
+      },
+      {
+        "symbol": "EIGENUSDT",
+        "potential_return": 42.81095426583775,
+        "signal": "HOLD",
+        "current_price": 1.209
+      },
+      {
+        "symbol": "RUNEUSDT",
+        "potential_return": 31.14187505492988,
+        "signal": "HOLD",
+        "current_price": 1.361
+      },
+      {
+        "symbol": "VETUSDT",
+        "potential_return": 37.409762793495375,
+        "signal": "HOLD",
+        "current_price": 0.02362
+      },
+      {
+        "symbol": "GALAUSDT",
+        "potential_return": 40.754055233174256,
+        "signal": "HOLD",
+        "current_price": 0.01593
+      },
+      {
+        "symbol": "BIOUSDT",
+        "potential_return": 84.46627678430228,
+        "signal": "HOLD",
+        "current_price": 0.0645
+      },
+      {
+        "symbol": "RESOLVUSDT",
+        "potential_return": 72.3769101658783,
+        "signal": "SELL",
+        "current_price": 0.1897
+      },
+      {
+        "symbol": "VICUSDT",
+        "potential_return": 35.249250986944105,
+        "signal": "HOLD",
+        "current_price": 0.2599
+      },
+      {
+        "symbol": "TURBOUSDT",
+        "potential_return": 77.40111110076502,
+        "signal": "HOLD",
+        "current_price": 0.004827
+      },
+      {
+        "symbol": "RENDERUSDT",
+        "potential_return": 23.899083658696966,
+        "signal": "HOLD",
+        "current_price": 3.851
+      },
+      {
+        "symbol": "OMUSDT",
+        "potential_return": -176.21212365632715,
+        "signal": "HOLD",
+        "current_price": 0.2469
+      },
+      {
+        "symbol": "MDTUSDT",
+        "potential_return": 118.3106097812856,
+        "signal": "SELL",
+        "current_price": 0.02785
+      },
+      {
+        "symbol": "TFUELUSDT",
+        "potential_return": 23.00229285760346,
+        "signal": "HOLD",
+        "current_price": 0.04188
+      },
+      {
+        "symbol": "POLUSDT",
+        "potential_return": 23.917561599897798,
+        "signal": "HOLD",
+        "current_price": 0.21
+      },
+      {
+        "symbol": "ICPUSDT",
+        "potential_return": 17.796883964366344,
+        "signal": "HOLD",
+        "current_price": 5.354
+      },
+      {
+        "symbol": "JUPUSDT",
+        "potential_return": 68.27371942425589,
+        "signal": "HOLD",
+        "current_price": 0.5047
+      },
+      {
+        "symbol": "ETCUSDT",
+        "potential_return": 134.7692713650508,
+        "signal": "HOLD",
+        "current_price": 21.16
+      },
+      {
+        "symbol": "CVXUSDT",
+        "potential_return": 41.97609053233795,
+        "signal": "HOLD",
+        "current_price": 4.421
+      },
+      {
+        "symbol": "ORDIUSDT",
+        "potential_return": 45.19110207929186,
+        "signal": "HOLD",
+        "current_price": 9.514
+      },
+      {
+        "symbol": "QKCUSDT",
+        "potential_return": 33.29368065602466,
+        "signal": "HOLD",
+        "current_price": 0.008343
+      },
+      {
+        "symbol": "ATOMUSDT",
+        "potential_return": 17.88598283212141,
+        "signal": "HOLD",
+        "current_price": 4.312
+      },
+      {
+        "symbol": "MKRUSDT",
+        "potential_return": 32.004763284995384,
+        "signal": "HOLD",
+        "current_price": 1990.1
+      },
+      {
+        "symbol": "ACMUSDT",
+        "potential_return": 37.24664862859019,
+        "signal": "HOLD",
+        "current_price": 0.945
+      },
+      {
+        "symbol": "HYPERUSDT",
+        "potential_return": 178.34972378680476,
+        "signal": "HOLD",
+        "current_price": 0.428
+      },
+      {
+        "symbol": "NOTUSDT",
+        "potential_return": 89.13904181608521,
+        "signal": "HOLD",
+        "current_price": 0.002099
+      },
+      {
+        "symbol": "ARKMUSDT",
+        "potential_return": 22.145688069503514,
+        "signal": "BUY",
+        "current_price": 0.499
+      },
+      {
+        "symbol": "ASRUSDT",
+        "potential_return": 39.63630911890253,
+        "signal": "HOLD",
+        "current_price": 5.256
+      },
+      {
+        "symbol": "THETAUSDT",
+        "potential_return": 31.757336206821574,
+        "signal": "HOLD",
+        "current_price": 0.818
+      },
+      {
+        "symbol": "CYBERUSDT",
+        "potential_return": 25.66953741349331,
+        "signal": "HOLD",
+        "current_price": 1.739
+      },
+      {
+        "symbol": "1000CATUSDT",
+        "potential_return": -217.20214421695815,
+        "signal": "HOLD",
+        "current_price": 0.01027
+      }
+    ],
+    "optimization_comparison": []
+  }
+}

@@ -1,0 +1,75 @@
+{
+    "binance_api_key": "Bu7NvIkI4tCnv0HX9ZEY1r5w6OpdZqCfcj4JR2BVmY5c9A9lfiVZC9MMmSE7PnKr",
+    "binance_api_secret": "5X6Wj1rA9U5UHzj9acXgd9nQru5B22Sfj0Z2sw38NgHnq1ttVQUvvtprwN4DxVnQ",
+    "default_settings": {
+        "interval": "1d",
+        "degree": 2,
+        "kstd": 2.0,
+        "days": 720,
+        "output_directory": "results",
+        "optimization_trials": 50,
+        "parallel_workers": 4
+    },
+    "scan_settings": {
+        "core_movers": ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT", "ADAUSDT", "AVAXUSDT"],
+        "top_100_enabled": true,
+        "custom_symbols": [],
+        "extended_symbols_enabled": true
+    },
+    "analysis_settings": {
+        "optimize_major_coins": true,
+        "major_coins": ["BTCUSDT", "ETHUSDT", "SOLUSDT"],
+        "timeframes": ["1d", "15m"],
+        "cache_enabled": true,
+        "cache_duration_hours": 24,
+        "degree_range": {
+            "min": 1,
+            "max": 3,
+            "step": 1
+        },
+        "std_range": {
+            "min": 1.0,
+            "max": 3.0,
+            "step": 0.1
+        },
+        "lookback_range": {
+            "min": 50,
+            "max": 350,
+            "step": 10
+        },
+        "asset_specific_settings": {
+            "BTCUSDT": {
+                "degree": 2,
+                "std": 2.0,
+                "lookback": 200
+            },
+            "ETHUSDT": {
+                "degree": 3,
+                "std": 1.8,
+                "lookback": 180
+            },
+            "SOLUSDT": {
+                "degree": 2,
+                "std": 2.2,
+                "lookback": 150
+            }
+        }
+    },
+    "database_settings": {
+        "db_path": "crypto_data.db",
+        "backup_enabled": true,
+        "cleanup_old_data": true,
+        "max_days_retention": 720
+    },
+    "output_settings": {
+        "csv_enabled": true,
+        "json_enabled": true,
+        "include_summary": true,
+        "include_metadata": true
+  },
+  "backtest_settings": {
+    "fees": 0.0015,
+    "slippage": 0.0005,
+    "order_delay_bars": 0
+  }
+}

@@ -1,0 +1,56 @@
+{
+    "binance_api_key": "your_binance_api_key_here",
+    "binance_api_secret": "your_binance_api_secret_here",
+    "database_host": "localhost",
+    "database_port": 5432,
+    "database_name": "autonama",
+    "database_user": "postgres",
+    "database_password": "postgres",
+    "engine_results_dir": "../autonama.engine/results",
+    "cleanup_days": 30,
+    "validation": {
+        "strict_mode": true,
+        "check_duplicates": true,
+        "validate_prices": true,
+        "max_file_age_hours": 24
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "ingestion.log",
+        "max_size_mb": 10,
+        "backup_count": 5
+    },
+    "vectorbt": {
+        "enabled": true,
+        "results_pattern": "vectorbt_analysis_results_*.csv",
+        "json_pattern": "vectorbt_analysis_results_*.json"
+    }
+} 
+    "binance_api_key": "your_binance_api_key_here",
+    "binance_api_secret": "your_binance_api_secret_here",
+    "database_host": "localhost",
+    "database_port": 5432,
+    "database_name": "autonama",
+    "database_user": "postgres",
+    "database_password": "postgres",
+    "engine_results_dir": "../autonama.engine/results",
+    "cleanup_days": 30,
+    "validation": {
+        "strict_mode": true,
+        "check_duplicates": true,
+        "validate_prices": true,
+        "max_file_age_hours": 24
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "ingestion.log",
+        "max_size_mb": 10,
+        "backup_count": 5
+    },
+    "vectorbt": {
+        "enabled": true,
+        "results_pattern": "vectorbt_analysis_results_*.csv",
+        "json_pattern": "vectorbt_analysis_results_*.json"
+    }
+} 
+ 

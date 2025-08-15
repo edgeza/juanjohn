@@ -1,0 +1,22 @@
+{
+  "ingestion_timestamp": "2025-08-14T09:06:43.172354",
+  "files": {
+    "alerts_file": "export_results\\optimization_run_20250814_090258\\alerts\\alerts_20250814_090258.json",
+    "analytics_file": "export_results\\optimization_run_20250814_090258\\analytics\\analytics_20250814_090258.json",
+    "summary_file": "export_results\\optimization_run_20250814_090258\\summary\\summary_20250814_090258.json",
+    "plots_file": "export_results\\optimization_run_20250814_090258\\plots\\plots_data_20250814_090258.json",
+    "original_csv": "results\\crypto_analysis_results_20250814_090643.csv",
+    "original_json": "results\\crypto_analysis_results_20250814_090643.json",
+    "timestamp": "20250814_090258"
+  },
+  "instructions": {
+    "alerts_file": "Use for real-time alerting system",
+    "analytics_file": "Use for detailed analytics and reporting",
+    "summary_file": "Use for dashboard overview and summaries",
+    "plots_file": "Use for generating charts and visualizations",
+    "original_csv": "Original CSV export from VectorBT analysis",
+    "original_json": "Original JSON export from VectorBT analysis"
+  },
+  "total_assets_analyzed": 100,
+  "optimization_enabled": true
+}

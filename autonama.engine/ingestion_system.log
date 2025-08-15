@@ -1,0 +1,664 @@
+2025-08-06 12:08:05,899 INFO:Database connection established
+2025-08-06 12:08:05,926 INFO:Tables created/verified successfully
+2025-08-06 12:08:05,927 WARNING:No results files found in results
+2025-08-06 12:08:05,943 INFO:Database connection established
+2025-08-06 12:08:05,952 INFO:Tables created/verified successfully
+2025-08-06 12:08:05,952 WARNING:No results files found in results
+2025-08-06 12:11:18,101 INFO:Database connection established
+2025-08-06 12:11:18,113 INFO:Tables created/verified successfully
+2025-08-06 12:11:18,115 INFO:Found latest results file: results\crypto_analysis_results_20250806_100620.json
+2025-08-06 12:11:18,116 INFO:Loaded results from results\crypto_analysis_results_20250806_100620.json
+2025-08-06 12:11:18,118 WARNING:No individual analyses found in results
+2025-08-06 12:11:18,118 WARNING:No summary found in results
+2025-08-06 12:11:18,118 WARNING:No individual analyses found in results
+2025-08-06 12:11:18,126 INFO:Cleanup completed: 0 alerts, 0 analytics, 0 summaries deleted
+2025-08-06 12:11:18,128 INFO:Database connection closed
+2025-08-06 12:11:18,161 INFO:Database connection established
+2025-08-06 12:11:18,171 INFO:Tables created/verified successfully
+2025-08-06 12:11:18,172 INFO:Found latest results file: results\crypto_analysis_results_20250806_100620.json
+2025-08-06 12:11:18,173 INFO:Loaded results from results\crypto_analysis_results_20250806_100620.json
+2025-08-06 12:11:18,173 WARNING:No individual analyses found in results
+2025-08-06 12:11:18,173 WARNING:No summary found in results
+2025-08-06 12:11:18,173 WARNING:No individual analyses found in results
+2025-08-06 12:11:18,182 INFO:Cleanup completed: 0 alerts, 0 analytics, 0 summaries deleted
+2025-08-06 12:11:18,182 INFO:Database connection closed
+2025-08-06 12:28:27,373 INFO:Database connection established
+2025-08-06 12:28:27,387 INFO:Tables created/verified successfully
+2025-08-06 12:28:27,388 INFO:Found latest results file: results\crypto_analysis_results_20250806_100620.json
+2025-08-06 12:28:27,390 INFO:Loaded results from results\crypto_analysis_results_20250806_100620.json
+2025-08-06 12:28:27,396 ERROR:Error ingesting alerts: column "analysis_date" does not exist
+LINE 3: ...                     WHERE symbol = 'ETHUSDT' AND analysis_d...
+                                                             ^
+
+2025-08-06 12:28:27,397 WARNING:No summary found in results
+2025-08-06 12:28:27,397 WARNING:No individual analyses found in results
+2025-08-06 12:28:27,404 INFO:Cleanup completed: 0 alerts, 0 analytics, 0 summaries deleted
+2025-08-06 12:28:27,404 INFO:Database connection closed
+2025-08-06 12:28:27,420 INFO:Database connection established
+2025-08-06 12:28:27,429 INFO:Tables created/verified successfully
+2025-08-06 12:28:27,430 INFO:Found latest results file: results\crypto_analysis_results_20250806_100620.json
+2025-08-06 12:28:27,432 INFO:Loaded results from results\crypto_analysis_results_20250806_100620.json
+2025-08-06 12:28:27,435 ERROR:Error ingesting alerts: column "analysis_date" does not exist
+LINE 3: ...                     WHERE symbol = 'ETHUSDT' AND analysis_d...
+                                                             ^
+
+2025-08-06 12:28:27,436 WARNING:No summary found in results
+2025-08-06 12:28:27,436 WARNING:No individual analyses found in results
+2025-08-06 12:28:27,443 INFO:Cleanup completed: 0 alerts, 0 analytics, 0 summaries deleted
+2025-08-06 12:28:27,443 INFO:Database connection closed
+2025-08-06 13:01:25,425 INFO:Database connection established
+2025-08-06 13:01:25,437 INFO:Tables created/verified successfully
+2025-08-06 13:01:25,439 INFO:Found latest results file: results\crypto_analysis_results_20250806_100620.json
+2025-08-06 13:01:25,442 INFO:Loaded results from results\crypto_analysis_results_20250806_100620.json
+2025-08-06 13:01:25,453 INFO:Inserted new alert for ETHUSDT
+2025-08-06 13:01:25,456 INFO:Inserted new alert for USDCUSDT
+2025-08-06 13:01:25,459 INFO:Inserted new alert for BTCUSDT
+2025-08-06 13:01:25,460 INFO:Inserted new alert for XRPUSDT
+2025-08-06 13:01:25,461 INFO:Inserted new alert for SOLUSDT
+2025-08-06 13:01:25,463 INFO:Inserted new alert for FDUSDUSDT
+2025-08-06 13:01:25,465 INFO:Inserted new alert for ENAUSDT
+2025-08-06 13:01:25,467 INFO:Inserted new alert for DOGEUSDT
+2025-08-06 13:01:25,469 INFO:Inserted new alert for LTCUSDT
+2025-08-06 13:01:25,471 INFO:Inserted new alert for BNBUSDT
+2025-08-06 13:01:25,473 INFO:Inserted new alert for SUIUSDT
+2025-08-06 13:01:25,475 INFO:Inserted new alert for TRXUSDT
+2025-08-06 13:01:25,477 INFO:Inserted new alert for PEPEUSDT
+2025-08-06 13:01:25,479 INFO:Inserted new alert for ADAUSDT
+2025-08-06 13:01:25,481 INFO:Inserted new alert for PENGUUSDT
+2025-08-06 13:01:25,482 INFO:Inserted new alert for BONKUSDT
+2025-08-06 13:01:25,484 INFO:Inserted new alert for ILVUSDT
+2025-08-06 13:01:25,485 INFO:Inserted new alert for HBARUSDT
+2025-08-06 13:01:25,487 INFO:Inserted new alert for SPKUSDT
+2025-08-06 13:01:25,491 INFO:Inserted new alert for LINKUSDT
+2025-08-06 13:01:25,493 INFO:Inserted new alert for UNIUSDT
+2025-08-06 13:01:25,494 INFO:Inserted new alert for CRVUSDT
+2025-08-06 13:01:25,497 INFO:Inserted new alert for SEIUSDT
+2025-08-06 13:01:25,498 INFO:Inserted new alert for AVAXUSDT
+2025-08-06 13:01:25,500 INFO:Inserted new alert for WLDUSDT
+2025-08-06 13:01:25,501 INFO:Inserted new alert for BCHUSDT
+2025-08-06 13:01:25,503 INFO:Inserted new alert for XLMUSDT
+2025-08-06 13:01:25,505 INFO:Inserted new alert for APTUSDT
+2025-08-06 13:01:25,507 INFO:Inserted new alert for TONUSDT
+2025-08-06 13:01:25,509 INFO:Inserted new alert for CFXUSDT
+2025-08-06 13:01:25,511 INFO:Inserted new alert for SUSDT
+2025-08-06 13:01:25,513 INFO:Inserted new alert for NEARUSDT
+2025-08-06 13:01:25,515 INFO:Inserted new alert for MAGICUSDT
+2025-08-06 13:01:25,516 INFO:Inserted new alert for SYRUPUSDT
+2025-08-06 13:01:25,518 INFO:Inserted new alert for OMUSDT
+2025-08-06 13:01:25,521 INFO:Inserted new alert for RAREUSDT
+2025-08-06 13:01:25,523 INFO:Inserted new alert for OPUSDT
+2025-08-06 13:01:25,525 INFO:Inserted new alert for AAVEUSDT
+2025-08-06 13:01:25,526 INFO:Inserted new alert for WIFUSDT
+2025-08-06 13:01:25,528 INFO:Inserted new alert for ARBUSDT
+2025-08-06 13:01:25,531 INFO:Inserted new alert for OGUSDT
+2025-08-06 13:01:25,532 INFO:Inserted new alert for FLOKIUSDT
+2025-08-06 13:01:25,534 INFO:Inserted new alert for SHIBUSDT
+2025-08-06 13:01:25,536 INFO:Inserted new alert for ONDOUSDT
+2025-08-06 13:01:25,538 INFO:Inserted new alert for TRUMPUSDT
+2025-08-06 13:01:25,541 INFO:Inserted new alert for TAOUSDT
+2025-08-06 13:01:25,544 INFO:Inserted new alert for PYRUSDT
+2025-08-06 13:01:25,547 INFO:Inserted new alert for DOTUSDT
+2025-08-06 13:01:25,549 INFO:Inserted new alert for POLUSDT
+2025-08-06 13:01:25,551 INFO:Inserted new alert for USD1USDT
+2025-08-06 13:01:25,553 INFO:Inserted new alert for LDOUSDT
+2025-08-06 13:01:25,556 INFO:Inserted new alert for TIAUSDT
+2025-08-06 13:01:25,558 INFO:Inserted new alert for NEIROUSDT
+2025-08-06 13:01:25,560 INFO:Inserted new alert for KERNELUSDT
+2025-08-06 13:01:25,562 INFO:Inserted new alert for ETHFIUSDT
+2025-08-06 13:01:25,564 INFO:Inserted new alert for VIRTUALUSDT
+2025-08-06 13:01:25,567 INFO:Inserted new alert for BROCCOLI714USDT
+2025-08-06 13:01:25,569 INFO:Inserted new alert for EURUSDT
+2025-08-06 13:01:25,573 INFO:Inserted new alert for INJUSDT
+2025-08-06 13:01:25,575 INFO:Inserted new alert for FETUSDT
+2025-08-06 13:01:25,577 INFO:Inserted new alert for CAKEUSDT
+2025-08-06 13:01:25,579 INFO:Inserted new alert for GASUSDT
+2025-08-06 13:01:25,582 INFO:Inserted new alert for PNUTUSDT
+2025-08-06 13:01:25,584 INFO:Inserted new alert for ALGOUSDT
+2025-08-06 13:01:25,586 INFO:Inserted new alert for MKRUSDT
+2025-08-06 13:01:25,589 INFO:Inserted new alert for PENDLEUSDT
+2025-08-06 13:01:25,592 INFO:Inserted new alert for FILUSDT
+2025-08-06 13:01:25,595 INFO:Inserted new alert for ETCUSDT
+2025-08-06 13:01:25,596 INFO:Inserted new alert for GALAUSDT
+2025-08-06 13:01:25,599 INFO:Inserted new alert for XUSDUSDT
+2025-08-06 13:01:25,601 INFO:Inserted new alert for ICPUSDT
+2025-08-06 13:01:25,603 INFO:Inserted new alert for RUNEUSDT
+2025-08-06 13:01:25,606 INFO:Inserted new alert for BNSOLUSDT
+2025-08-06 13:01:25,609 INFO:Inserted new alert for RENDERUSDT
+2025-08-06 13:01:25,611 INFO:Inserted new alert for ENSUSDT
+2025-08-06 13:01:25,615 INFO:Inserted new alert for ATOMUSDT
+2025-08-06 13:01:25,617 INFO:Inserted new alert for PAXGUSDT
+2025-08-06 13:01:25,619 INFO:Inserted new alert for ARKMUSDT
+2025-08-06 13:01:25,622 INFO:Inserted new alert for COSUSDT
+2025-08-06 13:01:25,624 INFO:Inserted new alert for INITUSDT
+2025-08-06 13:01:25,625 INFO:Inserted new alert for VANRYUSDT
+2025-08-06 13:01:25,627 INFO:Inserted new alert for RAYUSDT
+2025-08-06 13:01:25,629 INFO:Inserted new alert for EIGENUSDT
+2025-08-06 13:01:25,632 INFO:Inserted new alert for FUNUSDT
+2025-08-06 13:01:25,634 INFO:Inserted new alert for ARUSDT
+2025-08-06 13:01:25,636 INFO:Inserted new alert for SYNUSDT
+2025-08-06 13:01:25,637 INFO:Inserted new alert for JTOUSDT
+2025-08-06 13:01:25,639 INFO:Inserted new alert for ORDIUSDT
+2025-08-06 13:01:25,642 INFO:Inserted new alert for BBUSDT
+2025-08-06 13:01:25,643 INFO:Inserted new alert for VETUSDT
+2025-08-06 13:01:25,646 INFO:Inserted new alert for BABYUSDT
+2025-08-06 13:01:25,648 INFO:Inserted new alert for XTZUSDT
+2025-08-06 13:01:25,651 INFO:Inserted new alert for WBTCUSDT
+2025-08-06 13:01:25,654 INFO:Successfully ingested 93 alerts
+2025-08-06 13:01:25,654 WARNING:No summary found in results
+2025-08-06 13:01:25,654 WARNING:No individual analyses found in results
+2025-08-06 13:01:25,661 INFO:Cleanup completed: 0 alerts, 0 analytics, 0 summaries deleted
+2025-08-06 13:01:25,662 INFO:Database connection closed
+2025-08-06 13:01:25,679 INFO:Database connection established
+2025-08-06 13:01:25,692 INFO:Tables created/verified successfully
+2025-08-06 13:01:25,694 INFO:Found latest results file: results\crypto_analysis_results_20250806_100620.json
+2025-08-06 13:01:25,695 INFO:Loaded results from results\crypto_analysis_results_20250806_100620.json
+2025-08-06 13:01:25,704 INFO:Updated alert for ETHUSDT
+2025-08-06 13:01:25,707 INFO:Updated alert for USDCUSDT
+2025-08-06 13:01:25,709 INFO:Updated alert for BTCUSDT
+2025-08-06 13:01:25,712 INFO:Updated alert for XRPUSDT
+2025-08-06 13:01:25,715 INFO:Updated alert for SOLUSDT
+2025-08-06 13:01:25,717 INFO:Updated alert for FDUSDUSDT
+2025-08-06 13:01:25,719 INFO:Updated alert for ENAUSDT
+2025-08-06 13:01:25,723 INFO:Updated alert for DOGEUSDT
+2025-08-06 13:01:25,726 INFO:Updated alert for LTCUSDT
+2025-08-06 13:01:25,727 INFO:Updated alert for BNBUSDT
+2025-08-06 13:01:25,730 INFO:Updated alert for SUIUSDT
+2025-08-06 13:01:25,733 INFO:Updated alert for TRXUSDT
+2025-08-06 13:01:25,734 INFO:Updated alert for PEPEUSDT
+2025-08-06 13:01:25,738 INFO:Updated alert for ADAUSDT
+2025-08-06 13:01:25,742 INFO:Updated alert for PENGUUSDT
+2025-08-06 13:01:25,745 INFO:Updated alert for BONKUSDT
+2025-08-06 13:01:25,747 INFO:Updated alert for ILVUSDT
+2025-08-06 13:01:25,750 INFO:Updated alert for HBARUSDT
+2025-08-06 13:01:25,752 INFO:Updated alert for SPKUSDT
+2025-08-06 13:01:25,754 INFO:Updated alert for LINKUSDT
+2025-08-06 13:01:25,757 INFO:Updated alert for UNIUSDT
+2025-08-06 13:01:25,759 INFO:Updated alert for CRVUSDT
+2025-08-06 13:01:25,762 INFO:Updated alert for SEIUSDT
+2025-08-06 13:01:25,764 INFO:Updated alert for AVAXUSDT
+2025-08-06 13:01:25,766 INFO:Updated alert for WLDUSDT
+2025-08-06 13:01:25,768 INFO:Updated alert for BCHUSDT
+2025-08-06 13:01:25,771 INFO:Updated alert for XLMUSDT
+2025-08-06 13:01:25,773 INFO:Updated alert for APTUSDT
+2025-08-06 13:01:25,777 INFO:Updated alert for TONUSDT
+2025-08-06 13:01:25,781 INFO:Updated alert for CFXUSDT
+2025-08-06 13:01:25,784 INFO:Updated alert for SUSDT
+2025-08-06 13:01:25,787 INFO:Updated alert for NEARUSDT
+2025-08-06 13:01:25,791 INFO:Updated alert for MAGICUSDT
+2025-08-06 13:01:25,793 INFO:Updated alert for SYRUPUSDT
+2025-08-06 13:01:25,796 INFO:Updated alert for OMUSDT
+2025-08-06 13:01:25,798 INFO:Updated alert for RAREUSDT
+2025-08-06 13:01:25,801 INFO:Updated alert for OPUSDT
+2025-08-06 13:01:25,802 INFO:Updated alert for AAVEUSDT
+2025-08-06 13:01:25,804 INFO:Updated alert for WIFUSDT
+2025-08-06 13:01:25,806 INFO:Updated alert for ARBUSDT
+2025-08-06 13:01:25,809 INFO:Updated alert for OGUSDT
+2025-08-06 13:01:25,810 INFO:Updated alert for FLOKIUSDT
+2025-08-06 13:01:25,813 INFO:Updated alert for SHIBUSDT
+2025-08-06 13:01:25,815 INFO:Updated alert for ONDOUSDT
+2025-08-06 13:01:25,817 INFO:Updated alert for TRUMPUSDT
+2025-08-06 13:01:25,819 INFO:Updated alert for TAOUSDT
+2025-08-06 13:01:25,822 INFO:Updated alert for PYRUSDT
+2025-08-06 13:01:25,825 INFO:Updated alert for DOTUSDT
+2025-08-06 13:01:25,827 INFO:Updated alert for POLUSDT
+2025-08-06 13:01:25,829 INFO:Updated alert for USD1USDT
+2025-08-06 13:01:25,830 INFO:Updated alert for LDOUSDT
+2025-08-06 13:01:25,833 INFO:Updated alert for TIAUSDT
+2025-08-06 13:01:25,834 INFO:Updated alert for NEIROUSDT
+2025-08-06 13:01:25,837 INFO:Updated alert for KERNELUSDT
+2025-08-06 13:01:25,839 INFO:Updated alert for ETHFIUSDT
+2025-08-06 13:01:25,842 INFO:Updated alert for VIRTUALUSDT
+2025-08-06 13:01:25,843 INFO:Updated alert for BROCCOLI714USDT
+2025-08-06 13:01:25,844 INFO:Updated alert for EURUSDT
+2025-08-06 13:01:25,847 INFO:Updated alert for INJUSDT
+2025-08-06 13:01:25,848 INFO:Updated alert for FETUSDT
+2025-08-06 13:01:25,851 INFO:Updated alert for CAKEUSDT
+2025-08-06 13:01:25,853 INFO:Updated alert for GASUSDT
+2025-08-06 13:01:25,855 INFO:Updated alert for PNUTUSDT
+2025-08-06 13:01:25,857 INFO:Updated alert for ALGOUSDT
+2025-08-06 13:01:25,860 INFO:Updated alert for MKRUSDT
+2025-08-06 13:01:25,863 INFO:Updated alert for PENDLEUSDT
+2025-08-06 13:01:25,865 INFO:Updated alert for FILUSDT
+2025-08-06 13:01:25,868 INFO:Updated alert for ETCUSDT
+2025-08-06 13:01:25,870 INFO:Updated alert for GALAUSDT
+2025-08-06 13:01:25,872 INFO:Updated alert for XUSDUSDT
+2025-08-06 13:01:25,875 INFO:Updated alert for ICPUSDT
+2025-08-06 13:01:25,877 INFO:Updated alert for RUNEUSDT
+2025-08-06 13:01:25,878 INFO:Updated alert for BNSOLUSDT
+2025-08-06 13:01:25,880 INFO:Updated alert for RENDERUSDT
+2025-08-06 13:01:25,882 INFO:Updated alert for ENSUSDT
+2025-08-06 13:01:25,885 INFO:Updated alert for ATOMUSDT
+2025-08-06 13:01:25,887 INFO:Updated alert for PAXGUSDT
+2025-08-06 13:01:25,889 INFO:Updated alert for ARKMUSDT
+2025-08-06 13:01:25,893 INFO:Updated alert for COSUSDT
+2025-08-06 13:01:25,894 INFO:Updated alert for INITUSDT
+2025-08-06 13:01:25,896 INFO:Updated alert for VANRYUSDT
+2025-08-06 13:01:25,899 INFO:Updated alert for RAYUSDT
+2025-08-06 13:01:25,901 INFO:Updated alert for EIGENUSDT
+2025-08-06 13:01:25,903 INFO:Updated alert for FUNUSDT
+2025-08-06 13:01:25,905 INFO:Updated alert for ARUSDT
+2025-08-06 13:01:25,908 INFO:Updated alert for SYNUSDT
+2025-08-06 13:01:25,910 INFO:Updated alert for JTOUSDT
+2025-08-06 13:01:25,912 INFO:Updated alert for ORDIUSDT
+2025-08-06 13:01:25,914 INFO:Updated alert for BBUSDT
+2025-08-06 13:01:25,916 INFO:Updated alert for VETUSDT
+2025-08-06 13:01:25,918 INFO:Updated alert for BABYUSDT
+2025-08-06 13:01:25,919 INFO:Updated alert for XTZUSDT
+2025-08-06 13:01:25,922 INFO:Updated alert for WBTCUSDT
+2025-08-06 13:01:25,924 INFO:Successfully ingested 93 alerts
+2025-08-06 13:01:25,924 WARNING:No summary found in results
+2025-08-06 13:01:25,925 WARNING:No individual analyses found in results
+2025-08-06 13:01:25,930 INFO:Cleanup completed: 0 alerts, 0 analytics, 0 summaries deleted
+2025-08-06 13:01:25,931 INFO:Database connection closed
+2025-08-06 14:09:32,065 INFO:Database connection established
+2025-08-06 14:09:32,076 INFO:Tables created/verified successfully
+2025-08-06 14:09:32,077 INFO:Found latest results file: results\crypto_analysis_results_20250806_100620.json
+2025-08-06 14:09:32,079 INFO:Loaded results from results\crypto_analysis_results_20250806_100620.json
+2025-08-06 14:09:32,084 INFO:Cleaned up old alerts data
+2025-08-06 14:09:32,085 INFO:Inserted new alert for ETHUSDT
+2025-08-06 14:09:32,086 INFO:Inserted new alert for USDCUSDT
+2025-08-06 14:09:32,087 INFO:Inserted new alert for BTCUSDT
+2025-08-06 14:09:32,088 INFO:Inserted new alert for XRPUSDT
+2025-08-06 14:09:32,089 INFO:Inserted new alert for SOLUSDT
+2025-08-06 14:09:32,089 INFO:Inserted new alert for FDUSDUSDT
+2025-08-06 14:09:32,090 INFO:Inserted new alert for ENAUSDT
+2025-08-06 14:09:32,091 INFO:Inserted new alert for DOGEUSDT
+2025-08-06 14:09:32,092 INFO:Inserted new alert for LTCUSDT
+2025-08-06 14:09:32,092 INFO:Inserted new alert for BNBUSDT
+2025-08-06 14:09:32,094 INFO:Inserted new alert for SUIUSDT
+2025-08-06 14:09:32,094 INFO:Inserted new alert for TRXUSDT
+2025-08-06 14:09:32,095 INFO:Inserted new alert for PEPEUSDT
+2025-08-06 14:09:32,096 INFO:Inserted new alert for ADAUSDT
+2025-08-06 14:09:32,098 INFO:Inserted new alert for PENGUUSDT
+2025-08-06 14:09:32,099 INFO:Inserted new alert for BONKUSDT
+2025-08-06 14:09:32,100 INFO:Inserted new alert for ILVUSDT
+2025-08-06 14:09:32,101 INFO:Inserted new alert for HBARUSDT
+2025-08-06 14:09:32,102 INFO:Inserted new alert for SPKUSDT
+2025-08-06 14:09:32,103 INFO:Inserted new alert for LINKUSDT
+2025-08-06 14:09:32,104 INFO:Inserted new alert for UNIUSDT
+2025-08-06 14:09:32,105 INFO:Inserted new alert for CRVUSDT
+2025-08-06 14:09:32,106 INFO:Inserted new alert for SEIUSDT
+2025-08-06 14:09:32,106 INFO:Inserted new alert for AVAXUSDT
+2025-08-06 14:09:32,108 INFO:Inserted new alert for WLDUSDT
+2025-08-06 14:09:32,109 INFO:Inserted new alert for BCHUSDT
+2025-08-06 14:09:32,110 INFO:Inserted new alert for XLMUSDT
+2025-08-06 14:09:32,111 INFO:Inserted new alert for APTUSDT
+2025-08-06 14:09:32,112 INFO:Inserted new alert for TONUSDT
+2025-08-06 14:09:32,113 INFO:Inserted new alert for CFXUSDT
+2025-08-06 14:09:32,114 INFO:Inserted new alert for SUSDT
+2025-08-06 14:09:32,116 INFO:Inserted new alert for NEARUSDT
+2025-08-06 14:09:32,118 INFO:Inserted new alert for MAGICUSDT
+2025-08-06 14:09:32,119 INFO:Inserted new alert for SYRUPUSDT
+2025-08-06 14:09:32,120 INFO:Inserted new alert for OMUSDT
+2025-08-06 14:09:32,120 INFO:Inserted new alert for RAREUSDT
+2025-08-06 14:09:32,122 INFO:Inserted new alert for OPUSDT
+2025-08-06 14:09:32,123 INFO:Inserted new alert for AAVEUSDT
+2025-08-06 14:09:32,124 INFO:Inserted new alert for WIFUSDT
+2025-08-06 14:09:32,125 INFO:Inserted new alert for ARBUSDT
+2025-08-06 14:09:32,125 INFO:Inserted new alert for OGUSDT
+2025-08-06 14:09:32,126 INFO:Inserted new alert for FLOKIUSDT
+2025-08-06 14:09:32,128 INFO:Inserted new alert for SHIBUSDT
+2025-08-06 14:09:32,129 INFO:Inserted new alert for ONDOUSDT
+2025-08-06 14:09:32,130 INFO:Inserted new alert for TRUMPUSDT
+2025-08-06 14:09:32,131 INFO:Inserted new alert for TAOUSDT
+2025-08-06 14:09:32,132 INFO:Inserted new alert for PYRUSDT
+2025-08-06 14:09:32,133 INFO:Inserted new alert for DOTUSDT
+2025-08-06 14:09:32,135 INFO:Inserted new alert for POLUSDT
+2025-08-06 14:09:32,136 INFO:Inserted new alert for USD1USDT
+2025-08-06 14:09:32,137 INFO:Inserted new alert for LDOUSDT
+2025-08-06 14:09:32,138 INFO:Inserted new alert for TIAUSDT
+2025-08-06 14:09:32,139 INFO:Inserted new alert for NEIROUSDT
+2025-08-06 14:09:32,140 INFO:Inserted new alert for KERNELUSDT
+2025-08-06 14:09:32,141 INFO:Inserted new alert for ETHFIUSDT
+2025-08-06 14:09:32,142 INFO:Inserted new alert for VIRTUALUSDT
+2025-08-06 14:09:32,143 INFO:Inserted new alert for BROCCOLI714USDT
+2025-08-06 14:09:32,144 INFO:Inserted new alert for EURUSDT
+2025-08-06 14:09:32,145 INFO:Inserted new alert for INJUSDT
+2025-08-06 14:09:32,146 INFO:Inserted new alert for FETUSDT
+2025-08-06 14:09:32,147 INFO:Inserted new alert for CAKEUSDT
+2025-08-06 14:09:32,148 INFO:Inserted new alert for GASUSDT
+2025-08-06 14:09:32,149 INFO:Inserted new alert for PNUTUSDT
+2025-08-06 14:09:32,150 INFO:Inserted new alert for ALGOUSDT
+2025-08-06 14:09:32,151 INFO:Inserted new alert for MKRUSDT
+2025-08-06 14:09:32,153 INFO:Inserted new alert for PENDLEUSDT
+2025-08-06 14:09:32,155 INFO:Inserted new alert for FILUSDT
+2025-08-06 14:09:32,155 INFO:Inserted new alert for ETCUSDT
+2025-08-06 14:09:32,156 INFO:Inserted new alert for GALAUSDT
+2025-08-06 14:09:32,158 INFO:Inserted new alert for XUSDUSDT
+2025-08-06 14:09:32,158 INFO:Inserted new alert for ICPUSDT
+2025-08-06 14:09:32,159 INFO:Inserted new alert for RUNEUSDT
+2025-08-06 14:09:32,160 INFO:Inserted new alert for BNSOLUSDT
+2025-08-06 14:09:32,161 INFO:Inserted new alert for RENDERUSDT
+2025-08-06 14:09:32,162 INFO:Inserted new alert for ENSUSDT
+2025-08-06 14:09:32,163 INFO:Inserted new alert for ATOMUSDT
+2025-08-06 14:09:32,164 INFO:Inserted new alert for PAXGUSDT
+2025-08-06 14:09:32,165 INFO:Inserted new alert for ARKMUSDT
+2025-08-06 14:09:32,166 INFO:Inserted new alert for COSUSDT
+2025-08-06 14:09:32,166 INFO:Inserted new alert for INITUSDT
+2025-08-06 14:09:32,168 INFO:Inserted new alert for VANRYUSDT
+2025-08-06 14:09:32,170 INFO:Inserted new alert for RAYUSDT
+2025-08-06 14:09:32,170 INFO:Inserted new alert for EIGENUSDT
+2025-08-06 14:09:32,171 INFO:Inserted new alert for FUNUSDT
+2025-08-06 14:09:32,173 INFO:Inserted new alert for ARUSDT
+2025-08-06 14:09:32,174 INFO:Inserted new alert for SYNUSDT
+2025-08-06 14:09:32,175 INFO:Inserted new alert for JTOUSDT
+2025-08-06 14:09:32,176 INFO:Inserted new alert for ORDIUSDT
+2025-08-06 14:09:32,177 INFO:Inserted new alert for BBUSDT
+2025-08-06 14:09:32,178 INFO:Inserted new alert for VETUSDT
+2025-08-06 14:09:32,178 INFO:Inserted new alert for BABYUSDT
+2025-08-06 14:09:32,180 INFO:Inserted new alert for XTZUSDT
+2025-08-06 14:09:32,181 INFO:Inserted new alert for WBTCUSDT
+2025-08-06 14:09:32,182 INFO:Successfully ingested 93 alerts
+2025-08-06 14:09:32,182 WARNING:No summary found in results
+2025-08-06 14:09:32,182 WARNING:No individual analyses found in results
+2025-08-06 14:09:32,188 INFO:Cleanup completed: 0 alerts, 0 analytics, 0 summaries deleted
+2025-08-06 14:09:32,188 INFO:Database connection closed
+2025-08-06 14:09:32,226 INFO:Database connection established
+2025-08-06 14:09:32,236 INFO:Tables created/verified successfully
+2025-08-06 14:09:32,239 INFO:Found latest results file: results\crypto_analysis_results_20250806_100620.json
+2025-08-06 14:09:32,240 INFO:Loaded results from results\crypto_analysis_results_20250806_100620.json
+2025-08-06 14:09:32,244 INFO:Cleaned up old alerts data
+2025-08-06 14:09:32,245 INFO:Inserted new alert for ETHUSDT
+2025-08-06 14:09:32,247 INFO:Inserted new alert for USDCUSDT
+2025-08-06 14:09:32,248 INFO:Inserted new alert for BTCUSDT
+2025-08-06 14:09:32,249 INFO:Inserted new alert for XRPUSDT
+2025-08-06 14:09:32,250 INFO:Inserted new alert for SOLUSDT
+2025-08-06 14:09:32,251 INFO:Inserted new alert for FDUSDUSDT
+2025-08-06 14:09:32,252 INFO:Inserted new alert for ENAUSDT
+2025-08-06 14:09:32,253 INFO:Inserted new alert for DOGEUSDT
+2025-08-06 14:09:32,254 INFO:Inserted new alert for LTCUSDT
+2025-08-06 14:09:32,255 INFO:Inserted new alert for BNBUSDT
+2025-08-06 14:09:32,256 INFO:Inserted new alert for SUIUSDT
+2025-08-06 14:09:32,257 INFO:Inserted new alert for TRXUSDT
+2025-08-06 14:09:32,258 INFO:Inserted new alert for PEPEUSDT
+2025-08-06 14:09:32,259 INFO:Inserted new alert for ADAUSDT
+2025-08-06 14:09:32,260 INFO:Inserted new alert for PENGUUSDT
+2025-08-06 14:09:32,260 INFO:Inserted new alert for BONKUSDT
+2025-08-06 14:09:32,262 INFO:Inserted new alert for ILVUSDT
+2025-08-06 14:09:32,262 INFO:Inserted new alert for HBARUSDT
+2025-08-06 14:09:32,264 INFO:Inserted new alert for SPKUSDT
+2025-08-06 14:09:32,264 INFO:Inserted new alert for LINKUSDT
+2025-08-06 14:09:32,265 INFO:Inserted new alert for UNIUSDT
+2025-08-06 14:09:32,266 INFO:Inserted new alert for CRVUSDT
+2025-08-06 14:09:32,268 INFO:Inserted new alert for SEIUSDT
+2025-08-06 14:09:32,270 INFO:Inserted new alert for AVAXUSDT
+2025-08-06 14:09:32,271 INFO:Inserted new alert for WLDUSDT
+2025-08-06 14:09:32,272 INFO:Inserted new alert for BCHUSDT
+2025-08-06 14:09:32,272 INFO:Inserted new alert for XLMUSDT
+2025-08-06 14:09:32,273 INFO:Inserted new alert for APTUSDT
+2025-08-06 14:09:32,274 INFO:Inserted new alert for TONUSDT
+2025-08-06 14:09:32,275 INFO:Inserted new alert for CFXUSDT
+2025-08-06 14:09:32,275 INFO:Inserted new alert for SUSDT
+2025-08-06 14:09:32,276 INFO:Inserted new alert for NEARUSDT
+2025-08-06 14:09:32,277 INFO:Inserted new alert for MAGICUSDT
+2025-08-06 14:09:32,278 INFO:Inserted new alert for SYRUPUSDT
+2025-08-06 14:09:32,279 INFO:Inserted new alert for OMUSDT
+2025-08-06 14:09:32,280 INFO:Inserted new alert for RAREUSDT
+2025-08-06 14:09:32,281 INFO:Inserted new alert for OPUSDT
+2025-08-06 14:09:32,282 INFO:Inserted new alert for AAVEUSDT
+2025-08-06 14:09:32,284 INFO:Inserted new alert for WIFUSDT
+2025-08-06 14:09:32,284 INFO:Inserted new alert for ARBUSDT
+2025-08-06 14:09:32,286 INFO:Inserted new alert for OGUSDT
+2025-08-06 14:09:32,287 INFO:Inserted new alert for FLOKIUSDT
+2025-08-06 14:09:32,288 INFO:Inserted new alert for SHIBUSDT
+2025-08-06 14:09:32,288 INFO:Inserted new alert for ONDOUSDT
+2025-08-06 14:09:32,289 INFO:Inserted new alert for TRUMPUSDT
+2025-08-06 14:09:32,290 INFO:Inserted new alert for TAOUSDT
+2025-08-06 14:09:32,291 INFO:Inserted new alert for PYRUSDT
+2025-08-06 14:09:32,292 INFO:Inserted new alert for DOTUSDT
+2025-08-06 14:09:32,293 INFO:Inserted new alert for POLUSDT
+2025-08-06 14:09:32,294 INFO:Inserted new alert for USD1USDT
+2025-08-06 14:09:32,295 INFO:Inserted new alert for LDOUSDT
+2025-08-06 14:09:32,297 INFO:Inserted new alert for TIAUSDT
+2025-08-06 14:09:32,298 INFO:Inserted new alert for NEIROUSDT
+2025-08-06 14:09:32,299 INFO:Inserted new alert for KERNELUSDT
+2025-08-06 14:09:32,300 INFO:Inserted new alert for ETHFIUSDT
+2025-08-06 14:09:32,301 INFO:Inserted new alert for VIRTUALUSDT
+2025-08-06 14:09:32,302 INFO:Inserted new alert for BROCCOLI714USDT
+2025-08-06 14:09:32,303 INFO:Inserted new alert for EURUSDT
+2025-08-06 14:09:32,304 INFO:Inserted new alert for INJUSDT
+2025-08-06 14:09:32,305 INFO:Inserted new alert for FETUSDT
+2025-08-06 14:09:32,306 INFO:Inserted new alert for CAKEUSDT
+2025-08-06 14:09:32,306 INFO:Inserted new alert for GASUSDT
+2025-08-06 14:09:32,307 INFO:Inserted new alert for PNUTUSDT
+2025-08-06 14:09:32,308 INFO:Inserted new alert for ALGOUSDT
+2025-08-06 14:09:32,309 INFO:Inserted new alert for MKRUSDT
+2025-08-06 14:09:32,310 INFO:Inserted new alert for PENDLEUSDT
+2025-08-06 14:09:32,311 INFO:Inserted new alert for FILUSDT
+2025-08-06 14:09:32,312 INFO:Inserted new alert for ETCUSDT
+2025-08-06 14:09:32,313 INFO:Inserted new alert for GALAUSDT
+2025-08-06 14:09:32,314 INFO:Inserted new alert for XUSDUSDT
+2025-08-06 14:09:32,315 INFO:Inserted new alert for ICPUSDT
+2025-08-06 14:09:32,315 INFO:Inserted new alert for RUNEUSDT
+2025-08-06 14:09:32,316 INFO:Inserted new alert for BNSOLUSDT
+2025-08-06 14:09:32,318 INFO:Inserted new alert for RENDERUSDT
+2025-08-06 14:09:32,318 INFO:Inserted new alert for ENSUSDT
+2025-08-06 14:09:32,319 INFO:Inserted new alert for ATOMUSDT
+2025-08-06 14:09:32,321 INFO:Inserted new alert for PAXGUSDT
+2025-08-06 14:09:32,322 INFO:Inserted new alert for ARKMUSDT
+2025-08-06 14:09:32,323 INFO:Inserted new alert for COSUSDT
+2025-08-06 14:09:32,323 INFO:Inserted new alert for INITUSDT
+2025-08-06 14:09:32,324 INFO:Inserted new alert for VANRYUSDT
+2025-08-06 14:09:32,324 INFO:Inserted new alert for RAYUSDT
+2025-08-06 14:09:32,325 INFO:Inserted new alert for EIGENUSDT
+2025-08-06 14:09:32,326 INFO:Inserted new alert for FUNUSDT
+2025-08-06 14:09:32,326 INFO:Inserted new alert for ARUSDT
+2025-08-06 14:09:32,328 INFO:Inserted new alert for SYNUSDT
+2025-08-06 14:09:32,330 INFO:Inserted new alert for JTOUSDT
+2025-08-06 14:09:32,331 INFO:Inserted new alert for ORDIUSDT
+2025-08-06 14:09:32,331 INFO:Inserted new alert for BBUSDT
+2025-08-06 14:09:32,332 INFO:Inserted new alert for VETUSDT
+2025-08-06 14:09:32,333 INFO:Inserted new alert for BABYUSDT
+2025-08-06 14:09:32,335 INFO:Inserted new alert for XTZUSDT
+2025-08-06 14:09:32,335 INFO:Inserted new alert for WBTCUSDT
+2025-08-06 14:09:32,339 INFO:Successfully ingested 93 alerts
+2025-08-06 14:09:32,339 WARNING:No summary found in results
+2025-08-06 14:09:32,339 WARNING:No individual analyses found in results
+2025-08-06 14:09:32,343 INFO:Cleanup completed: 0 alerts, 0 analytics, 0 summaries deleted
+2025-08-06 14:09:32,343 INFO:Database connection closed
+2025-08-06 16:12:39,744 INFO:Database connection established
+2025-08-06 16:12:39,759 INFO:Tables created/verified successfully
+2025-08-06 16:12:39,762 INFO:Found latest results file: results\crypto_analysis_results_20250806_161122.json
+2025-08-06 16:12:39,763 INFO:Loaded results from results\crypto_analysis_results_20250806_161122.json
+2025-08-06 16:12:39,767 INFO:Cleaned up old alerts data
+2025-08-06 16:12:39,769 INFO:Inserted new alert for ETHUSDT
+2025-08-06 16:12:39,770 INFO:Inserted new alert for BTCUSDT
+2025-08-06 16:12:39,772 INFO:Inserted new alert for USDCUSDT
+2025-08-06 16:12:39,773 INFO:Inserted new alert for XRPUSDT
+2025-08-06 16:12:39,774 INFO:Inserted new alert for SOLUSDT
+2025-08-06 16:12:39,776 INFO:Inserted new alert for FDUSDUSDT
+2025-08-06 16:12:39,776 INFO:Inserted new alert for DOGEUSDT
+2025-08-06 16:12:39,778 INFO:Inserted new alert for ENAUSDT
+2025-08-06 16:12:39,779 INFO:Inserted new alert for TRXUSDT
+2025-08-06 16:12:39,779 INFO:Inserted new alert for BNBUSDT
+2025-08-06 16:12:39,780 INFO:Inserted new alert for SUIUSDT
+2025-08-06 16:12:39,781 INFO:Inserted new alert for PEPEUSDT
+2025-08-06 16:12:39,782 INFO:Inserted new alert for LTCUSDT
+2025-08-06 16:12:39,783 INFO:Inserted new alert for ADAUSDT
+2025-08-06 16:12:39,784 INFO:Inserted new alert for PENGUUSDT
+2025-08-06 16:12:39,785 INFO:Inserted new alert for BONKUSDT
+2025-08-06 16:12:39,787 INFO:Inserted new alert for ILVUSDT
+2025-08-06 16:12:39,787 INFO:Inserted new alert for HBARUSDT
+2025-08-06 16:12:39,788 INFO:Inserted new alert for UNIUSDT
+2025-08-06 16:12:39,790 INFO:Inserted new alert for SPKUSDT
+2025-08-06 16:12:39,792 INFO:Inserted new alert for LINKUSDT
+2025-08-06 16:12:39,793 INFO:Inserted new alert for CRVUSDT
+2025-08-06 16:12:39,794 INFO:Inserted new alert for AVAXUSDT
+2025-08-06 16:12:39,795 INFO:Inserted new alert for XLMUSDT
+2025-08-06 16:12:39,796 INFO:Inserted new alert for SEIUSDT
+2025-08-06 16:12:39,798 INFO:Inserted new alert for TONUSDT
+2025-08-06 16:12:39,799 INFO:Inserted new alert for APTUSDT
+2025-08-06 16:12:39,799 INFO:Inserted new alert for WLDUSDT
+2025-08-06 16:12:39,800 INFO:Inserted new alert for CFXUSDT
+2025-08-06 16:12:39,801 INFO:Inserted new alert for SUSDT
+2025-08-06 16:12:39,803 INFO:Inserted new alert for SYRUPUSDT
+2025-08-06 16:12:39,804 INFO:Inserted new alert for OMUSDT
+2025-08-06 16:12:39,805 INFO:Inserted new alert for NEARUSDT
+2025-08-06 16:12:39,806 INFO:Inserted new alert for BCHUSDT
+2025-08-06 16:12:39,807 INFO:Inserted new alert for AAVEUSDT
+2025-08-06 16:12:39,809 INFO:Inserted new alert for ARBUSDT
+2025-08-06 16:12:39,809 INFO:Inserted new alert for MAGICUSDT
+2025-08-06 16:12:39,810 INFO:Inserted new alert for OPUSDT
+2025-08-06 16:12:39,811 INFO:Inserted new alert for FLOKIUSDT
+2025-08-06 16:12:39,812 INFO:Inserted new alert for WIFUSDT
+2025-08-06 16:12:39,813 INFO:Inserted new alert for ONDOUSDT
+2025-08-06 16:12:39,814 INFO:Inserted new alert for TRUMPUSDT
+2025-08-06 16:12:39,815 INFO:Inserted new alert for OGUSDT
+2025-08-06 16:12:39,816 INFO:Inserted new alert for SHIBUSDT
+2025-08-06 16:12:39,817 INFO:Inserted new alert for DOTUSDT
+2025-08-06 16:12:39,818 INFO:Inserted new alert for LDOUSDT
+2025-08-06 16:12:39,819 INFO:Inserted new alert for TAOUSDT
+2025-08-06 16:12:39,820 INFO:Inserted new alert for USD1USDT
+2025-08-06 16:12:39,820 INFO:Inserted new alert for CAKEUSDT
+2025-08-06 16:12:39,822 INFO:Inserted new alert for ETHFIUSDT
+2025-08-06 16:12:39,823 INFO:Inserted new alert for TIAUSDT
+2025-08-06 16:12:39,825 INFO:Inserted new alert for POLUSDT
+2025-08-06 16:12:39,826 INFO:Inserted new alert for PYRUSDT
+2025-08-06 16:12:39,826 INFO:Inserted new alert for NEIROUSDT
+2025-08-06 16:12:39,827 INFO:Inserted new alert for RAREUSDT
+2025-08-06 16:12:39,828 INFO:Inserted new alert for KERNELUSDT
+2025-08-06 16:12:39,829 INFO:Inserted new alert for INJUSDT
+2025-08-06 16:12:39,830 INFO:Inserted new alert for EURUSDT
+2025-08-06 16:12:39,831 INFO:Inserted new alert for VIRTUALUSDT
+2025-08-06 16:12:39,832 INFO:Inserted new alert for FETUSDT
+2025-08-06 16:12:39,834 INFO:Inserted new alert for XUSDUSDT
+2025-08-06 16:12:39,835 INFO:Inserted new alert for BROCCOLI714USDT
+2025-08-06 16:12:39,836 INFO:Inserted new alert for MKRUSDT
+2025-08-06 16:12:39,837 INFO:Inserted new alert for PNUTUSDT
+2025-08-06 16:12:39,838 INFO:Inserted new alert for ALGOUSDT
+2025-08-06 16:12:39,838 INFO:Inserted new alert for PENDLEUSDT
+2025-08-06 16:12:39,840 INFO:Inserted new alert for SPELLUSDT
+2025-08-06 16:12:39,840 INFO:Inserted new alert for FILUSDT
+2025-08-06 16:12:39,842 INFO:Inserted new alert for GALAUSDT
+2025-08-06 16:12:39,843 INFO:Inserted new alert for RUNEUSDT
+2025-08-06 16:12:39,843 INFO:Inserted new alert for ICPUSDT
+2025-08-06 16:12:39,845 INFO:Inserted new alert for ETCUSDT
+2025-08-06 16:12:39,846 INFO:Inserted new alert for ARKMUSDT
+2025-08-06 16:12:39,846 INFO:Inserted new alert for BNSOLUSDT
+2025-08-06 16:12:39,847 INFO:Inserted new alert for EPICUSDT
+2025-08-06 16:12:39,849 INFO:Inserted new alert for GASUSDT
+2025-08-06 16:12:39,850 INFO:Inserted new alert for EIGENUSDT
+2025-08-06 16:12:39,850 INFO:Inserted new alert for FUNUSDT
+2025-08-06 16:12:39,851 INFO:Inserted new alert for APEUSDT
+2025-08-06 16:12:39,852 INFO:Inserted new alert for INITUSDT
+2025-08-06 16:12:39,853 INFO:Inserted new alert for RENDERUSDT
+2025-08-06 16:12:39,854 INFO:Inserted new alert for PAXGUSDT
+2025-08-06 16:12:39,855 INFO:Inserted new alert for ATOMUSDT
+2025-08-06 16:12:39,857 INFO:Inserted new alert for ORDIUSDT
+2025-08-06 16:12:39,858 INFO:Inserted new alert for VETUSDT
+2025-08-06 16:12:39,858 INFO:Inserted new alert for WBTCUSDT
+2025-08-06 16:12:39,861 INFO:Inserted new alert for VANRYUSDT
+2025-08-06 16:12:39,861 INFO:Inserted new alert for ENSUSDT
+2025-08-06 16:12:39,862 INFO:Inserted new alert for RAYUSDT
+2025-08-06 16:12:39,863 INFO:Inserted new alert for JTOUSDT
+2025-08-06 16:12:39,864 INFO:Inserted new alert for COSUSDT
+2025-08-06 16:12:39,865 INFO:Inserted new alert for FISUSDT
+2025-08-06 16:12:39,866 INFO:Inserted new alert for ARUSDT
+2025-08-06 16:12:39,869 INFO:Successfully ingested 93 alerts
+2025-08-06 16:12:39,869 WARNING:No summary found in results
+2025-08-06 16:12:39,869 WARNING:No individual analyses found in results
+2025-08-06 16:12:39,876 INFO:Cleanup completed: 0 alerts, 0 analytics, 0 summaries deleted
+2025-08-06 16:12:39,877 INFO:Database connection closed
+2025-08-06 16:12:39,905 INFO:Database connection established
+2025-08-06 16:12:39,915 INFO:Tables created/verified successfully
+2025-08-06 16:12:39,916 INFO:Found latest results file: results\crypto_analysis_results_20250806_161122.json
+2025-08-06 16:12:39,917 INFO:Loaded results from results\crypto_analysis_results_20250806_161122.json
+2025-08-06 16:12:39,922 INFO:Cleaned up old alerts data
+2025-08-06 16:12:39,923 INFO:Inserted new alert for ETHUSDT
+2025-08-06 16:12:39,925 INFO:Inserted new alert for BTCUSDT
+2025-08-06 16:12:39,926 INFO:Inserted new alert for USDCUSDT
+2025-08-06 16:12:39,927 INFO:Inserted new alert for XRPUSDT
+2025-08-06 16:12:39,928 INFO:Inserted new alert for SOLUSDT
+2025-08-06 16:12:39,929 INFO:Inserted new alert for FDUSDUSDT
+2025-08-06 16:12:39,930 INFO:Inserted new alert for DOGEUSDT
+2025-08-06 16:12:39,931 INFO:Inserted new alert for ENAUSDT
+2025-08-06 16:12:39,932 INFO:Inserted new alert for TRXUSDT
+2025-08-06 16:12:39,933 INFO:Inserted new alert for BNBUSDT
+2025-08-06 16:12:39,934 INFO:Inserted new alert for SUIUSDT
+2025-08-06 16:12:39,935 INFO:Inserted new alert for PEPEUSDT
+2025-08-06 16:12:39,936 INFO:Inserted new alert for LTCUSDT
+2025-08-06 16:12:39,937 INFO:Inserted new alert for ADAUSDT
+2025-08-06 16:12:39,938 INFO:Inserted new alert for PENGUUSDT
+2025-08-06 16:12:39,939 INFO:Inserted new alert for BONKUSDT
+2025-08-06 16:12:39,941 INFO:Inserted new alert for ILVUSDT
+2025-08-06 16:12:39,942 INFO:Inserted new alert for HBARUSDT
+2025-08-06 16:12:39,943 INFO:Inserted new alert for UNIUSDT
+2025-08-06 16:12:39,944 INFO:Inserted new alert for SPKUSDT
+2025-08-06 16:12:39,945 INFO:Inserted new alert for LINKUSDT
+2025-08-06 16:12:39,946 INFO:Inserted new alert for CRVUSDT
+2025-08-06 16:12:39,947 INFO:Inserted new alert for AVAXUSDT
+2025-08-06 16:12:39,947 INFO:Inserted new alert for XLMUSDT
+2025-08-06 16:12:39,948 INFO:Inserted new alert for SEIUSDT
+2025-08-06 16:12:39,950 INFO:Inserted new alert for TONUSDT
+2025-08-06 16:12:39,951 INFO:Inserted new alert for APTUSDT
+2025-08-06 16:12:39,952 INFO:Inserted new alert for WLDUSDT
+2025-08-06 16:12:39,953 INFO:Inserted new alert for CFXUSDT
+2025-08-06 16:12:39,953 INFO:Inserted new alert for SUSDT
+2025-08-06 16:12:39,954 INFO:Inserted new alert for SYRUPUSDT
+2025-08-06 16:12:39,955 INFO:Inserted new alert for OMUSDT
+2025-08-06 16:12:39,956 INFO:Inserted new alert for NEARUSDT
+2025-08-06 16:12:39,957 INFO:Inserted new alert for BCHUSDT
+2025-08-06 16:12:39,958 INFO:Inserted new alert for AAVEUSDT
+2025-08-06 16:12:39,959 INFO:Inserted new alert for ARBUSDT
+2025-08-06 16:12:39,960 INFO:Inserted new alert for MAGICUSDT
+2025-08-06 16:12:39,960 INFO:Inserted new alert for OPUSDT
+2025-08-06 16:12:39,962 INFO:Inserted new alert for FLOKIUSDT
+2025-08-06 16:12:39,962 INFO:Inserted new alert for WIFUSDT
+2025-08-06 16:12:39,964 INFO:Inserted new alert for ONDOUSDT
+2025-08-06 16:12:39,965 INFO:Inserted new alert for TRUMPUSDT
+2025-08-06 16:12:39,966 INFO:Inserted new alert for OGUSDT
+2025-08-06 16:12:39,967 INFO:Inserted new alert for SHIBUSDT
+2025-08-06 16:12:39,968 INFO:Inserted new alert for DOTUSDT
+2025-08-06 16:12:39,969 INFO:Inserted new alert for LDOUSDT
+2025-08-06 16:12:39,970 INFO:Inserted new alert for TAOUSDT
+2025-08-06 16:12:39,971 INFO:Inserted new alert for USD1USDT
+2025-08-06 16:12:39,972 INFO:Inserted new alert for CAKEUSDT
+2025-08-06 16:12:39,974 INFO:Inserted new alert for ETHFIUSDT
+2025-08-06 16:12:39,975 INFO:Inserted new alert for TIAUSDT
+2025-08-06 16:12:39,976 INFO:Inserted new alert for POLUSDT
+2025-08-06 16:12:39,977 INFO:Inserted new alert for PYRUSDT
+2025-08-06 16:12:39,978 INFO:Inserted new alert for NEIROUSDT
+2025-08-06 16:12:39,979 INFO:Inserted new alert for RAREUSDT
+2025-08-06 16:12:39,979 INFO:Inserted new alert for KERNELUSDT
+2025-08-06 16:12:39,980 INFO:Inserted new alert for INJUSDT
+2025-08-06 16:12:39,982 INFO:Inserted new alert for EURUSDT
+2025-08-06 16:12:39,982 INFO:Inserted new alert for VIRTUALUSDT
+2025-08-06 16:12:39,982 INFO:Inserted new alert for FETUSDT
+2025-08-06 16:12:39,985 INFO:Inserted new alert for XUSDUSDT
+2025-08-06 16:12:39,986 INFO:Inserted new alert for BROCCOLI714USDT
+2025-08-06 16:12:39,986 INFO:Inserted new alert for MKRUSDT
+2025-08-06 16:12:39,987 INFO:Inserted new alert for PNUTUSDT
+2025-08-06 16:12:39,988 INFO:Inserted new alert for ALGOUSDT
+2025-08-06 16:12:39,989 INFO:Inserted new alert for PENDLEUSDT
+2025-08-06 16:12:39,992 INFO:Inserted new alert for SPELLUSDT
+2025-08-06 16:12:39,993 INFO:Inserted new alert for FILUSDT
+2025-08-06 16:12:39,993 INFO:Inserted new alert for GALAUSDT
+2025-08-06 16:12:39,994 INFO:Inserted new alert for RUNEUSDT
+2025-08-06 16:12:39,995 INFO:Inserted new alert for ICPUSDT
+2025-08-06 16:12:39,996 INFO:Inserted new alert for ETCUSDT
+2025-08-06 16:12:39,996 INFO:Inserted new alert for ARKMUSDT
+2025-08-06 16:12:39,997 INFO:Inserted new alert for BNSOLUSDT
+2025-08-06 16:12:39,999 INFO:Inserted new alert for EPICUSDT
+2025-08-06 16:12:40,000 INFO:Inserted new alert for GASUSDT
+2025-08-06 16:12:40,001 INFO:Inserted new alert for EIGENUSDT
+2025-08-06 16:12:40,002 INFO:Inserted new alert for FUNUSDT
+2025-08-06 16:12:40,003 INFO:Inserted new alert for APEUSDT
+2025-08-06 16:12:40,003 INFO:Inserted new alert for INITUSDT
+2025-08-06 16:12:40,005 INFO:Inserted new alert for RENDERUSDT
+2025-08-06 16:12:40,006 INFO:Inserted new alert for PAXGUSDT
+2025-08-06 16:12:40,008 INFO:Inserted new alert for ATOMUSDT
+2025-08-06 16:12:40,009 INFO:Inserted new alert for ORDIUSDT
+2025-08-06 16:12:40,011 INFO:Inserted new alert for VETUSDT
+2025-08-06 16:12:40,012 INFO:Inserted new alert for WBTCUSDT
+2025-08-06 16:12:40,014 INFO:Inserted new alert for VANRYUSDT
+2025-08-06 16:12:40,015 INFO:Inserted new alert for ENSUSDT
+2025-08-06 16:12:40,016 INFO:Inserted new alert for RAYUSDT
+2025-08-06 16:12:40,018 INFO:Inserted new alert for JTOUSDT
+2025-08-06 16:12:40,019 INFO:Inserted new alert for COSUSDT
+2025-08-06 16:12:40,020 INFO:Inserted new alert for FISUSDT
+2025-08-06 16:12:40,022 INFO:Inserted new alert for ARUSDT
+2025-08-06 16:12:40,026 INFO:Successfully ingested 93 alerts
+2025-08-06 16:12:40,026 WARNING:No summary found in results
+2025-08-06 16:12:40,026 WARNING:No individual analyses found in results
+2025-08-06 16:12:40,032 INFO:Cleanup completed: 0 alerts, 0 analytics, 0 summaries deleted
+2025-08-06 16:12:40,032 INFO:Database connection closed

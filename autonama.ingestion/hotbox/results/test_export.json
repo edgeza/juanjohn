@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "SOLUSDT",
+    "interval": "1d",
+    "current_price": 177.52,
+    "lower_band": 134.6464371685249,
+    "upper_band": 220.9027333355231,
+    "signal": "HOLD",
+    "potential_return": 64.06132830610208,
+    "total_return": 177.28257484064065,
+    "sharpe_ratio": 5.003879405831495,
+    "max_drawdown": 21.22751752870644,
+    "degree": 3,
+    "kstd": 1.6057653855279512,
+    "analysis_date": "2025-07-31T15:44:17.406650"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "interval": "1d",
+    "current_price": 3806.51,
+    "lower_band": 2990.595265283347,
+    "upper_band": 3809.581979551202,
+    "signal": "SELL",
+    "potential_return": 27.385407974631406,
+    "total_return": 147.2004414508995,
+    "sharpe_ratio": 5.710222462276394,
+    "max_drawdown": 4.740852866527042,
+    "degree": 6,
+    "kstd": 1.5518561429292834,
+    "analysis_date": "2025-07-31T15:44:29.221581"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "interval": "1d",
+    "current_price": 118433.12,
+    "lower_band": 104830.46833236462,
+    "upper_band": 133749.29757447468,
+    "signal": "HOLD",
+    "potential_return": 27.586282597176826,
+    "total_return": 146.4865290273506,
+    "sharpe_ratio": 6.908915164900058,
+    "max_drawdown": 5.408146240561946,
+    "degree": 3,
+    "kstd": 1.7404129600446434,
+    "analysis_date": "2025-07-31T15:44:29.679083"
+  }
+]

@@ -1,0 +1,42 @@
+# Autonama Ingestion System Dependencies
+# This should be installed in the same conda environment as VectorBTPro
+
+# Database connectivity
+psycopg2-binary>=2.9.9
+
+# Data processing (already available in VectorBTPro env)
+pandas>=2.0.0
+numpy>=1.24.0
+
+# JSON handling
+jsonschema>=4.17.0
+
+# Logging and utilities
+python-dateutil>=2.8.0
+
+# VectorBTPro (should already be installed in conda env)
+# vectorbtpro>=1.0.0  # Uncomment if not already installed
+
+# Optional: For enhanced validation
+# pydantic>=2.0.0  # For advanced data validation 
+# This should be installed in the same conda environment as VectorBTPro
+
+# Database connectivity
+psycopg2-binary>=2.9.9
+
+# Data processing (already available in VectorBTPro env)
+pandas>=2.0.0
+numpy>=1.24.0
+
+# JSON handling
+jsonschema>=4.17.0
+
+# Logging and utilities
+python-dateutil>=2.8.0
+
+# VectorBTPro (should already be installed in conda env)
+# vectorbtpro>=1.0.0  # Uncomment if not already installed
+
+# Optional: For enhanced validation
+# pydantic>=2.0.0  # For advanced data validation 
+ 

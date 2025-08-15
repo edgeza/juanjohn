@@ -1,0 +1,454 @@
+2025-08-01 15:39:19,968 - INFO - Starting Docker ingestion process...
+2025-08-01 15:39:19,970 - INFO - Found latest optimization run: optimization_run_20250801_130536
+2025-08-01 15:39:19,971 - INFO - Loaded 14 alerts from alerts_20250801_130536.json
+2025-08-01 15:39:19,973 - INFO - Loaded analytics from analytics_20250801_130536.json
+2025-08-01 15:39:19,975 - INFO - Loaded plots data from plots_data_20250801_130536.json
+2025-08-01 15:39:19,977 - INFO - Loaded summary from summary_20250801_130536.json
+2025-08-01 15:39:19,997 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-01 15:39:20,003 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-01 15:39:20,014 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-01 15:39:20,019 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-01 15:39:20,027 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-01 15:39:20,120 - INFO - Saved 94 individual asset files
+2025-08-01 15:39:20,126 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-01 15:39:20,126 - INFO - Docker ingestion completed successfully!
+2025-08-01 15:39:20,127 - INFO - Data summary: {'total_alerts': 14, 'total_analytics': 94, 'total_assets': 94, 'has_summary': True}
+2025-08-01 15:39:20,127 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-01 15:41:35,825 - INFO - Starting Docker ingestion process...
+2025-08-01 15:41:35,827 - INFO - Found latest optimization run: optimization_run_20250801_130536
+2025-08-01 15:41:35,828 - INFO - Loaded 14 alerts from alerts_20250801_130536.json
+2025-08-01 15:41:35,832 - INFO - Loaded analytics from analytics_20250801_130536.json
+2025-08-01 15:41:35,834 - INFO - Loaded plots data from plots_data_20250801_130536.json
+2025-08-01 15:41:35,835 - INFO - Loaded summary from summary_20250801_130536.json
+2025-08-01 15:41:35,850 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-01 15:41:35,852 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-01 15:41:35,859 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-01 15:41:35,862 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-01 15:41:35,866 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-01 15:41:35,928 - INFO - Saved 94 individual asset files
+2025-08-01 15:41:35,929 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-01 15:41:35,930 - INFO - Docker ingestion completed successfully!
+2025-08-01 15:41:35,930 - INFO - Data summary: {'total_alerts': 14, 'total_analytics': 94, 'total_assets': 94, 'has_summary': True}
+2025-08-01 15:41:35,930 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-01 15:57:48,086 - INFO - Starting Docker ingestion process...
+2025-08-01 15:57:48,088 - INFO - Found latest optimization run: optimization_run_20250801_130536
+2025-08-01 15:57:48,089 - INFO - Loaded 14 alerts from alerts_20250801_130536.json
+2025-08-01 15:57:48,092 - INFO - Loaded analytics from analytics_20250801_130536.json
+2025-08-01 15:57:48,093 - INFO - Loaded plots data from plots_data_20250801_130536.json
+2025-08-01 15:57:48,095 - INFO - Loaded summary from summary_20250801_130536.json
+2025-08-01 15:57:48,111 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-01 15:57:48,114 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-01 15:57:48,121 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-01 15:57:48,125 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-01 15:57:48,130 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-01 15:57:48,191 - INFO - Saved 94 individual asset files
+2025-08-01 15:57:48,193 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-01 15:57:48,194 - INFO - Docker ingestion completed successfully!
+2025-08-01 15:57:48,194 - INFO - Data summary: {'total_alerts': 14, 'total_analytics': 94, 'total_assets': 94, 'has_summary': True}
+2025-08-01 15:57:48,194 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-03 15:04:07,730 - INFO - Starting Docker ingestion process...
+2025-08-03 15:04:07,732 - INFO - Found latest optimization run: optimization_run_20250803_141907
+2025-08-03 15:04:07,733 - INFO - Loaded 94 alerts from alerts_20250803_141907.json
+2025-08-03 15:04:07,736 - INFO - Loaded analytics from analytics_20250803_141907.json
+2025-08-03 15:04:07,739 - INFO - Loaded plots data from plots_data_20250803_141907.json
+2025-08-03 15:04:07,740 - INFO - Loaded summary from summary_20250803_141907.json
+2025-08-03 15:04:07,762 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-03 15:04:07,769 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-03 15:04:07,777 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-03 15:04:07,780 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-03 15:04:07,784 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-03 15:04:07,849 - INFO - Saved 94 individual asset files
+2025-08-03 15:04:07,850 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-03 15:04:07,850 - INFO - Docker ingestion completed successfully!
+2025-08-03 15:04:07,850 - INFO - Data summary: {'total_alerts': 94, 'total_analytics': 94, 'total_assets': 94, 'has_summary': True}
+2025-08-03 15:04:07,851 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-03 15:46:31,172 - INFO - Starting Docker ingestion process...
+2025-08-03 15:46:31,174 - INFO - Found latest optimization run: optimization_run_20250803_141907
+2025-08-03 15:46:31,177 - INFO - Loaded 94 alerts from alerts_20250803_141907.json
+2025-08-03 15:46:31,179 - INFO - Loaded analytics from analytics_20250803_141907.json
+2025-08-03 15:46:31,181 - INFO - Loaded plots data from plots_data_20250803_141907.json
+2025-08-03 15:46:31,183 - INFO - Loaded summary from summary_20250803_141907.json
+2025-08-03 15:46:31,206 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-03 15:46:31,214 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-03 15:46:31,222 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-03 15:46:31,225 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-03 15:46:31,230 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-03 15:46:31,296 - INFO - Saved 94 individual asset files
+2025-08-03 15:46:31,296 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-03 15:46:31,296 - INFO - Docker ingestion completed successfully!
+2025-08-03 15:46:31,297 - INFO - Data summary: {'total_alerts': 94, 'total_analytics': 94, 'total_assets': 94, 'has_summary': True}
+2025-08-03 15:46:31,297 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-03 15:46:43,016 - INFO - Starting Docker ingestion process...
+2025-08-03 15:46:43,018 - INFO - Found latest optimization run: optimization_run_20250803_141907
+2025-08-03 15:46:43,020 - INFO - Loaded 94 alerts from alerts_20250803_141907.json
+2025-08-03 15:46:43,022 - INFO - Loaded analytics from analytics_20250803_141907.json
+2025-08-03 15:46:43,026 - INFO - Loaded plots data from plots_data_20250803_141907.json
+2025-08-03 15:46:43,028 - INFO - Loaded summary from summary_20250803_141907.json
+2025-08-03 15:46:43,053 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-03 15:46:43,062 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-03 15:46:43,073 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-03 15:46:43,075 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-03 15:46:43,082 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-03 15:46:43,150 - INFO - Saved 94 individual asset files
+2025-08-03 15:46:43,151 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-03 15:46:43,151 - INFO - Docker ingestion completed successfully!
+2025-08-03 15:46:43,151 - INFO - Data summary: {'total_alerts': 94, 'total_analytics': 94, 'total_assets': 94, 'has_summary': True}
+2025-08-03 15:46:43,152 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-03 16:57:15,036 - INFO - Starting Docker ingestion process...
+2025-08-03 16:57:15,038 - INFO - Found latest optimization run: optimization_run_20250803_164211
+2025-08-03 16:57:15,040 - INFO - Loaded 94 alerts from alerts_20250803_164211.json
+2025-08-03 16:57:15,042 - INFO - Loaded analytics from analytics_20250803_164211.json
+2025-08-03 16:57:15,045 - INFO - Loaded plots data from plots_data_20250803_164211.json
+2025-08-03 16:57:15,047 - INFO - Loaded summary from summary_20250803_164211.json
+2025-08-03 16:57:15,069 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-03 16:57:15,079 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-03 16:57:15,088 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-03 16:57:15,090 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-03 16:57:15,095 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-03 16:57:15,162 - INFO - Saved 94 individual asset files
+2025-08-03 16:57:15,164 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-03 16:57:15,164 - INFO - Docker ingestion completed successfully!
+2025-08-03 16:57:15,165 - INFO - Data summary: {'total_alerts': 94, 'total_analytics': 94, 'total_assets': 94, 'has_summary': True}
+2025-08-03 16:57:15,165 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-03 21:37:39,197 - INFO - Starting Docker ingestion process...
+2025-08-03 21:37:39,199 - INFO - Found latest optimization run: optimization_run_20250803_213549
+2025-08-03 21:37:39,201 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-03 21:37:39,202 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-03 21:37:39,203 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-03 21:37:39,203 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-03 21:37:39,204 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-03 21:37:39,205 - INFO - Saved 0 individual asset files
+2025-08-03 21:37:39,206 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-03 21:37:39,206 - INFO - Docker ingestion completed successfully!
+2025-08-03 21:37:39,206 - INFO - Data summary: {'total_alerts': 0, 'total_analytics': 0, 'total_assets': 0, 'has_summary': False}
+2025-08-03 21:37:39,207 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-03 21:59:14,378 - INFO - Starting Docker ingestion process...
+2025-08-03 21:59:14,379 - INFO - Found latest optimization run: optimization_run_20250803_214401
+2025-08-03 21:59:14,390 - INFO - Loaded 94 alerts from alerts_20250803_214401.json
+2025-08-03 21:59:14,404 - INFO - Loaded analytics from analytics_20250803_214401.json
+2025-08-03 21:59:14,417 - INFO - Loaded plots data from plots_data_20250803_214401.json
+2025-08-03 21:59:14,428 - INFO - Loaded summary from summary_20250803_214401.json
+2025-08-03 21:59:14,452 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-03 21:59:14,459 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-03 21:59:14,467 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-03 21:59:14,471 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-03 21:59:14,476 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-03 21:59:14,514 - INFO - Saved 94 individual asset files
+2025-08-03 21:59:14,515 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-03 21:59:14,515 - INFO - Docker ingestion completed successfully!
+2025-08-03 21:59:14,516 - INFO - Data summary: {'total_alerts': 94, 'total_analytics': 94, 'total_assets': 94, 'has_summary': True}
+2025-08-03 21:59:14,516 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-04 22:51:42,527 - INFO - Starting Docker ingestion process...
+2025-08-04 22:51:42,529 - INFO - Found latest optimization run: optimization_run_20250804_225059
+2025-08-04 22:51:42,532 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-04 22:51:42,534 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-04 22:51:42,535 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-04 22:51:42,536 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-04 22:51:42,537 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-04 22:51:42,537 - INFO - Saved 0 individual asset files
+2025-08-04 22:51:42,537 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-04 22:51:42,538 - INFO - Docker ingestion completed successfully!
+2025-08-04 22:51:42,538 - INFO - Data summary: {'total_alerts': 0, 'total_analytics': 0, 'total_assets': 0, 'has_summary': False}
+2025-08-04 22:51:42,539 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-05 08:54:55,743 - INFO - Starting Docker ingestion process...
+2025-08-05 08:54:55,744 - INFO - Found latest optimization run: optimization_run_20250804_231457
+2025-08-05 08:54:55,746 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-05 08:54:55,747 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-05 08:54:55,748 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-05 08:54:55,748 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-05 08:54:55,749 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-05 08:54:55,749 - INFO - Saved 0 individual asset files
+2025-08-05 08:54:55,750 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-05 08:54:55,750 - INFO - Docker ingestion completed successfully!
+2025-08-05 08:54:55,750 - INFO - Data summary: {'total_alerts': 0, 'total_analytics': 0, 'total_assets': 0, 'has_summary': False}
+2025-08-05 08:54:55,750 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-05 09:10:55,980 - INFO - Starting Docker ingestion process...
+2025-08-05 09:10:55,981 - INFO - Found latest optimization run: optimization_run_20250805_085520
+2025-08-05 09:10:55,990 - INFO - Loaded 93 alerts from alerts_20250805_085520.json
+2025-08-05 09:10:56,000 - INFO - Loaded analytics from analytics_20250805_085520.json
+2025-08-05 09:10:56,009 - INFO - Loaded plots data from plots_data_20250805_085520.json
+2025-08-05 09:10:56,018 - INFO - Loaded summary from summary_20250805_085520.json
+2025-08-05 09:10:56,037 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-05 09:10:56,044 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-05 09:10:56,050 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-05 09:10:56,054 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-05 09:10:56,057 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-05 09:10:56,090 - INFO - Saved 93 individual asset files
+2025-08-05 09:10:56,090 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-05 09:10:56,091 - INFO - Docker ingestion completed successfully!
+2025-08-05 09:10:56,091 - INFO - Data summary: {'total_alerts': 93, 'total_analytics': 93, 'total_assets': 93, 'has_summary': True}
+2025-08-05 09:10:56,091 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-05 13:17:11,910 - INFO - Starting Docker ingestion process...
+2025-08-05 13:17:11,912 - INFO - Found latest optimization run: optimization_run_20250805_130143
+2025-08-05 13:17:11,922 - INFO - Loaded 93 alerts from alerts_20250805_130143.json
+2025-08-05 13:17:11,934 - INFO - Loaded analytics from analytics_20250805_130143.json
+2025-08-05 13:17:11,948 - INFO - Loaded plots data from plots_data_20250805_130143.json
+2025-08-05 13:17:11,961 - INFO - Loaded summary from summary_20250805_130143.json
+2025-08-05 13:17:11,984 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-05 13:17:11,993 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-05 13:17:12,000 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-05 13:17:12,003 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-05 13:17:12,009 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-05 13:17:12,051 - INFO - Saved 93 individual asset files
+2025-08-05 13:17:12,052 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-05 13:17:12,052 - INFO - Docker ingestion completed successfully!
+2025-08-05 13:17:12,053 - INFO - Data summary: {'total_alerts': 93, 'total_analytics': 93, 'total_assets': 93, 'has_summary': True}
+2025-08-05 13:17:12,053 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-05 15:52:00,851 - INFO - Starting Docker ingestion process...
+2025-08-05 15:52:00,853 - INFO - Found latest optimization run: optimization_run_20250805_153852
+2025-08-05 15:52:00,865 - INFO - Loaded 93 alerts from alerts_20250805_153852.json
+2025-08-05 15:52:00,879 - INFO - Loaded analytics from analytics_20250805_153852.json
+2025-08-05 15:52:00,890 - INFO - Loaded plots data from plots_data_20250805_153852.json
+2025-08-05 15:52:00,900 - INFO - Loaded summary from summary_20250805_153852.json
+2025-08-05 15:52:00,925 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-05 15:52:00,933 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-05 15:52:00,941 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-05 15:52:00,944 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-05 15:52:00,949 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-05 15:52:00,990 - INFO - Saved 93 individual asset files
+2025-08-05 15:52:00,991 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-05 15:52:00,991 - INFO - Docker ingestion completed successfully!
+2025-08-05 15:52:00,992 - INFO - Data summary: {'total_alerts': 93, 'total_analytics': 93, 'total_assets': 93, 'has_summary': True}
+2025-08-05 15:52:00,992 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-06 10:06:29,879 - INFO - Starting Docker ingestion process...
+2025-08-06 10:06:29,881 - INFO - Found latest optimization run: optimization_run_20250806_095126
+2025-08-06 10:06:29,891 - INFO - Loaded 93 alerts from alerts_20250806_095126.json
+2025-08-06 10:06:29,901 - INFO - Loaded analytics from analytics_20250806_095126.json
+2025-08-06 10:06:29,910 - INFO - Loaded plots data from plots_data_20250806_095126.json
+2025-08-06 10:06:29,919 - INFO - Loaded summary from summary_20250806_095126.json
+2025-08-06 10:06:29,940 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-06 10:06:29,947 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-06 10:06:29,954 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-06 10:06:29,956 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-06 10:06:29,960 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-06 10:06:29,995 - INFO - Saved 93 individual asset files
+2025-08-06 10:06:29,995 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-06 10:06:29,995 - INFO - Docker ingestion completed successfully!
+2025-08-06 10:06:29,995 - INFO - Data summary: {'total_alerts': 93, 'total_analytics': 93, 'total_assets': 93, 'has_summary': True}
+2025-08-06 10:06:29,995 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-06 11:33:43,665 - INFO - Starting Docker ingestion process...
+2025-08-06 11:33:43,667 - INFO - Found latest optimization run: optimization_run_20250806_095126
+2025-08-06 11:33:43,670 - INFO - Loaded 93 alerts from alerts_20250806_095126.json
+2025-08-06 11:33:43,673 - INFO - Loaded analytics from analytics_20250806_095126.json
+2025-08-06 11:33:43,674 - INFO - Loaded plots data from plots_data_20250806_095126.json
+2025-08-06 11:33:43,675 - INFO - Loaded summary from summary_20250806_095126.json
+2025-08-06 11:33:43,697 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-06 11:33:43,704 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-06 11:33:43,712 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-06 11:33:43,715 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-06 11:33:43,719 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-06 11:33:43,761 - INFO - Saved 93 individual asset files
+2025-08-06 11:33:43,762 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-06 11:33:43,763 - INFO - Docker ingestion completed successfully!
+2025-08-06 11:33:43,763 - INFO - Data summary: {'total_alerts': 93, 'total_analytics': 93, 'total_assets': 93, 'has_summary': True}
+2025-08-06 11:33:43,764 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-08 09:23:21,056 - INFO - Starting Docker ingestion process...
+2025-08-08 09:23:21,064 - INFO - Found latest optimization run: optimization_run_20250808_091828
+2025-08-08 09:23:21,067 - INFO - Loaded 94 alerts from alerts_20250808_091828.json
+2025-08-08 09:23:21,073 - INFO - Loaded analytics from analytics_20250808_091828.json
+2025-08-08 09:23:21,076 - INFO - Loaded plots data from plots_data_20250808_091828.json
+2025-08-08 09:23:21,079 - INFO - Loaded summary from summary_20250808_091828.json
+2025-08-08 09:23:21,108 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-08 09:23:21,117 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-08 09:23:21,129 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-08 09:23:21,133 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-08 09:23:21,139 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-08 09:23:21,254 - INFO - Saved 94 individual asset files
+2025-08-08 09:23:21,256 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-08 09:23:21,256 - INFO - Docker ingestion completed successfully!
+2025-08-08 09:23:21,256 - INFO - Data summary: {'total_alerts': 94, 'total_analytics': 94, 'total_assets': 94, 'has_summary': True}
+2025-08-08 09:23:21,257 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-08 11:18:46,523 - INFO - Starting Docker ingestion process...
+2025-08-08 11:18:46,529 - INFO - Found latest optimization run: optimization_run_20250808_105800
+2025-08-08 11:18:46,531 - INFO - Loaded 95 alerts from alerts_20250808_105800.json
+2025-08-08 11:18:46,533 - INFO - Loaded analytics from analytics_20250808_105800.json
+2025-08-08 11:18:46,535 - INFO - Loaded plots data from plots_data_20250808_105800.json
+2025-08-08 11:18:46,536 - INFO - Loaded summary from summary_20250808_105800.json
+2025-08-08 11:18:46,549 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-08 11:18:46,555 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-08 11:18:46,558 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-08 11:18:46,561 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-08 11:18:46,563 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-08 11:18:46,609 - INFO - Saved 95 individual asset files
+2025-08-08 11:18:46,610 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-08 11:18:46,610 - INFO - Docker ingestion completed successfully!
+2025-08-08 11:18:46,610 - INFO - Data summary: {'total_alerts': 95, 'total_analytics': 95, 'total_assets': 95, 'has_summary': True}
+2025-08-08 11:18:46,610 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-08 11:25:44,206 - INFO - Starting Docker ingestion process...
+2025-08-08 11:25:44,212 - INFO - Found latest optimization run: optimization_run_20250808_110431
+2025-08-08 11:25:44,214 - INFO - Loaded 95 alerts from alerts_20250808_110431.json
+2025-08-08 11:25:44,216 - INFO - Loaded analytics from analytics_20250808_110431.json
+2025-08-08 11:25:44,218 - INFO - Loaded plots data from plots_data_20250808_110431.json
+2025-08-08 11:25:44,220 - INFO - Loaded summary from summary_20250808_110431.json
+2025-08-08 11:25:44,233 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-08 11:25:44,238 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-08 11:25:44,243 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-08 11:25:44,244 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-08 11:25:44,247 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-08 11:25:44,300 - INFO - Saved 95 individual asset files
+2025-08-08 11:25:44,300 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-08 11:25:44,300 - INFO - Docker ingestion completed successfully!
+2025-08-08 11:25:44,301 - INFO - Data summary: {'total_alerts': 95, 'total_analytics': 95, 'total_assets': 95, 'has_summary': True}
+2025-08-08 11:25:44,301 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-08 12:25:52,984 - INFO - Starting Docker ingestion process...
+2025-08-08 12:25:52,989 - INFO - Found latest optimization run: optimization_run_20250808_122048
+2025-08-08 12:25:52,991 - INFO - Loaded 95 alerts from alerts_20250808_122048.json
+2025-08-08 12:25:52,993 - INFO - Loaded analytics from analytics_20250808_122048.json
+2025-08-08 12:25:52,994 - INFO - Loaded plots data from plots_data_20250808_122048.json
+2025-08-08 12:25:52,996 - INFO - Loaded summary from summary_20250808_122048.json
+2025-08-08 12:25:53,012 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-08 12:25:53,017 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-08 12:25:53,021 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-08 12:25:53,023 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-08 12:25:53,026 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-08 12:25:53,076 - INFO - Saved 95 individual asset files
+2025-08-08 12:25:53,077 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-08 12:25:53,077 - INFO - Docker ingestion completed successfully!
+2025-08-08 12:25:53,077 - INFO - Data summary: {'total_alerts': 95, 'total_analytics': 95, 'total_assets': 95, 'has_summary': True}
+2025-08-08 12:25:53,077 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-08 13:45:53,773 - INFO - Starting Docker ingestion process...
+2025-08-08 13:54:43,647 - INFO - Starting Docker ingestion process...
+2025-08-08 13:54:43,656 - INFO - Found latest optimization run: optimization_run_20250808_133942
+2025-08-08 13:54:43,658 - INFO - Loaded 95 alerts from alerts_20250808_133942.json
+2025-08-08 13:54:43,661 - INFO - Loaded analytics from analytics_20250808_133942.json
+2025-08-08 13:54:43,663 - INFO - Loaded plots data from plots_data_20250808_133942.json
+2025-08-08 13:54:43,664 - INFO - Loaded summary from summary_20250808_133942.json
+2025-08-08 13:54:43,689 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-08 13:54:43,697 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-08 13:54:43,707 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-08 13:54:43,711 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-08 13:54:43,715 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-08 13:54:43,782 - INFO - Saved 95 individual asset files
+2025-08-08 13:54:43,783 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-08 13:54:43,783 - INFO - Docker ingestion completed successfully!
+2025-08-08 13:54:43,783 - INFO - Data summary: {'total_alerts': 95, 'total_analytics': 95, 'total_assets': 95, 'has_summary': True}
+2025-08-08 13:54:43,783 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-08 13:54:43,784 - ERROR - Unexpected error: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-08-08 13:55:57,416 - INFO - Starting Docker ingestion process...
+2025-08-08 13:55:57,423 - INFO - Found latest optimization run: optimization_run_20250808_133942
+2025-08-08 13:55:57,426 - INFO - Loaded 95 alerts from alerts_20250808_133942.json
+2025-08-08 13:55:57,429 - INFO - Loaded analytics from analytics_20250808_133942.json
+2025-08-08 13:55:57,431 - INFO - Loaded plots data from plots_data_20250808_133942.json
+2025-08-08 13:55:57,434 - INFO - Loaded summary from summary_20250808_133942.json
+2025-08-08 13:55:57,456 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-08 13:55:57,465 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-08 13:55:57,474 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-08 13:55:57,476 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-08 13:55:57,480 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-08 13:55:57,560 - INFO - Saved 95 individual asset files
+2025-08-08 13:55:57,561 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-08 13:55:57,561 - INFO - Docker ingestion completed successfully!
+2025-08-08 13:55:57,561 - INFO - Data summary: {'total_alerts': 95, 'total_analytics': 95, 'total_assets': 95, 'has_summary': True}
+2025-08-08 13:55:57,561 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-08 14:27:23,912 - INFO - Starting Docker ingestion process...
+2025-08-08 14:27:23,914 - INFO - Found latest optimization run: optimization_run_20250808_142253
+2025-08-08 14:27:23,916 - INFO - Loaded 95 alerts from alerts_20250808_142253.json
+2025-08-08 14:27:23,918 - INFO - Loaded analytics from analytics_20250808_142253.json
+2025-08-08 14:27:23,920 - INFO - Loaded plots data from plots_data_20250808_142253.json
+2025-08-08 14:27:23,921 - INFO - Loaded summary from summary_20250808_142253.json
+2025-08-08 14:27:23,936 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-08 14:27:23,941 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-08 14:27:23,945 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-08 14:27:23,947 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-08 14:27:23,949 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-08 14:27:23,995 - INFO - Saved 95 individual asset files
+2025-08-08 14:27:23,996 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-08 14:27:23,996 - INFO - Docker ingestion completed successfully!
+2025-08-08 14:27:23,996 - INFO - Data summary: {'total_alerts': 95, 'total_analytics': 95, 'total_assets': 95, 'has_summary': True}
+2025-08-08 14:27:23,996 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-08 16:25:35,513 - INFO - Starting Docker ingestion process...
+2025-08-08 16:25:35,516 - INFO - Found latest optimization run: optimization_run_20250808_161638
+2025-08-08 16:25:35,520 - INFO - Loaded 95 alerts from alerts_20250808_161638.json
+2025-08-08 16:25:35,523 - INFO - Loaded analytics from analytics_20250808_161638.json
+2025-08-08 16:25:35,527 - INFO - Loaded plots data from plots_data_20250808_161638.json
+2025-08-08 16:25:35,539 - INFO - Loaded summary from summary_20250808_161638.json
+2025-08-08 16:25:35,570 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-08 16:25:35,577 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-08 16:25:35,585 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-08 16:25:35,588 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-08 16:25:35,599 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-08 16:25:35,681 - INFO - Saved 95 individual asset files
+2025-08-08 16:25:35,682 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-08 16:25:35,682 - INFO - Docker ingestion completed successfully!
+2025-08-08 16:25:35,682 - INFO - Data summary: {'total_alerts': 95, 'total_analytics': 95, 'total_assets': 95, 'has_summary': True}
+2025-08-08 16:25:35,682 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-13 12:48:30,032 - INFO - Starting Docker ingestion process...
+2025-08-13 12:48:30,037 - INFO - Found latest optimization run: optimization_run_20250813_124102
+2025-08-13 12:48:30,055 - INFO - Loaded 95 alerts from alerts_20250813_124102.json
+2025-08-13 12:48:30,069 - INFO - Loaded analytics from analytics_20250813_124102.json
+2025-08-13 12:48:30,084 - INFO - Loaded plots data from plots_data_20250813_124102.json
+2025-08-13 12:48:30,097 - INFO - Loaded summary from summary_20250813_124102.json
+2025-08-13 12:48:30,116 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-13 12:48:30,122 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-13 12:48:30,128 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-13 12:48:30,130 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-13 12:48:30,133 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-13 12:48:30,190 - INFO - Saved 95 individual asset files
+2025-08-13 12:48:30,191 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-13 12:48:30,191 - INFO - Docker ingestion completed successfully!
+2025-08-13 12:48:30,191 - INFO - Data summary: {'total_alerts': 95, 'total_analytics': 95, 'total_assets': 95, 'has_summary': True}
+2025-08-13 12:48:30,191 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-13 16:03:30,021 - INFO - Starting Docker ingestion process...
+2025-08-13 16:03:30,024 - INFO - Found latest optimization run: optimization_run_20250813_155632
+2025-08-13 16:03:30,026 - INFO - Loaded 96 alerts from alerts_20250813_155632.json
+2025-08-13 16:03:30,028 - INFO - Loaded analytics from analytics_20250813_155632.json
+2025-08-13 16:03:30,030 - INFO - Loaded plots data from plots_data_20250813_155632.json
+2025-08-13 16:03:30,031 - INFO - Loaded summary from summary_20250813_155632.json
+2025-08-13 16:03:30,048 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-13 16:03:30,054 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-13 16:03:30,060 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-13 16:03:30,062 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-13 16:03:30,067 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-13 16:03:30,120 - INFO - Saved 96 individual asset files
+2025-08-13 16:03:30,121 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-13 16:03:30,121 - INFO - Docker ingestion completed successfully!
+2025-08-13 16:03:30,121 - INFO - Data summary: {'total_alerts': 96, 'total_analytics': 96, 'total_assets': 96, 'has_summary': True}
+2025-08-13 16:03:30,121 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-14 09:07:01,730 - INFO - Starting Docker ingestion process...
+2025-08-14 09:07:01,734 - INFO - Found latest optimization run: optimization_run_20250814_090258
+2025-08-14 09:07:01,746 - INFO - Loaded 95 alerts from alerts_20250814_090258.json
+2025-08-14 09:07:01,756 - INFO - Loaded analytics from analytics_20250814_090258.json
+2025-08-14 09:07:01,769 - INFO - Loaded plots data from plots_data_20250814_090258.json
+2025-08-14 09:07:01,777 - INFO - Loaded summary from summary_20250814_090258.json
+2025-08-14 09:07:01,795 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-14 09:07:01,801 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-14 09:07:01,806 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-14 09:07:01,808 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-14 09:07:01,810 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-14 09:07:01,855 - INFO - Saved 95 individual asset files
+2025-08-14 09:07:01,855 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-14 09:07:01,856 - INFO - Docker ingestion completed successfully!
+2025-08-14 09:07:01,856 - INFO - Data summary: {'total_alerts': 95, 'total_analytics': 95, 'total_assets': 95, 'has_summary': True}
+2025-08-14 09:07:01,856 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-14 09:32:47,023 - INFO - Starting Docker ingestion process...
+2025-08-14 09:32:47,027 - INFO - Found latest optimization run: optimization_run_20250814_092614
+2025-08-14 09:32:47,028 - INFO - Loaded 95 alerts from alerts_20250814_092614.json
+2025-08-14 09:32:47,029 - INFO - Loaded analytics from analytics_20250814_092614.json
+2025-08-14 09:32:47,031 - INFO - Loaded plots data from plots_data_20250814_092614.json
+2025-08-14 09:32:47,032 - INFO - Loaded summary from summary_20250814_092614.json
+2025-08-14 09:32:47,046 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-14 09:32:47,051 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-14 09:32:47,056 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-14 09:32:47,059 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-14 09:32:47,061 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-14 09:32:47,103 - INFO - Saved 95 individual asset files
+2025-08-14 09:32:47,103 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-14 09:32:47,103 - INFO - Docker ingestion completed successfully!
+2025-08-14 09:32:47,103 - INFO - Data summary: {'total_alerts': 95, 'total_analytics': 95, 'total_assets': 95, 'has_summary': True}
+2025-08-14 09:32:47,104 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-15 00:16:51,119 - INFO - Starting Docker ingestion process...
+2025-08-15 00:16:51,124 - INFO - Found latest optimization run: optimization_run_20250815_001123
+2025-08-15 00:16:51,138 - INFO - Loaded 94 alerts from alerts_20250815_001123.json
+2025-08-15 00:16:51,150 - INFO - Loaded analytics from analytics_20250815_001123.json
+2025-08-15 00:16:51,162 - INFO - Loaded plots data from plots_data_20250815_001123.json
+2025-08-15 00:16:51,172 - INFO - Loaded summary from summary_20250815_001123.json
+2025-08-15 00:16:51,188 - INFO - Saved main data to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\optimization_data.json
+2025-08-15 00:16:51,191 - INFO - Saved alerts to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\alerts.json
+2025-08-15 00:16:51,197 - INFO - Saved analytics to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\analytics.json
+2025-08-15 00:16:51,198 - INFO - Saved summary to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\summary.json
+2025-08-15 00:16:51,201 - INFO - Saved assets to E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\api\assets.json
+2025-08-15 00:16:51,241 - INFO - Saved 94 individual asset files
+2025-08-15 00:16:51,243 - INFO - Created ingestion manifest: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data\ingestion_manifest.json
+2025-08-15 00:16:51,243 - INFO - Docker ingestion completed successfully!
+2025-08-15 00:16:51,243 - INFO - Data summary: {'total_alerts': 94, 'total_analytics': 94, 'total_assets': 94, 'has_summary': True}
+2025-08-15 00:16:51,243 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
