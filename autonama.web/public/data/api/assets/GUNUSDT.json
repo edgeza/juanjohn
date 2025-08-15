@@ -1,0 +1,21 @@
+{
+  "symbol": "GUNUSDT",
+  "signal": "HOLD",
+  "current_price": 0.03023,
+  "potential_return": 55.69828675989829,
+  "total_return": 73.05698938508523,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 3.8797157495642254,
+  "max_drawdown": 22.024918117012408,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.2,
+  "lookback": 320,
+  "interval": "1d",
+  "data_points": 128,
+  "total_available": 128,
+  "analysis_date": "2025-08-05T15:50:04.838447"
+}

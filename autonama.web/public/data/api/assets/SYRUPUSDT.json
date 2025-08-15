@@ -1,0 +1,21 @@
+{
+  "symbol": "SYRUPUSDT",
+  "signal": "HOLD",
+  "current_price": 0.4289,
+  "potential_return": 4.009813186576841,
+  "total_return": 106.17892543107384,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 5.965443649389716,
+  "max_drawdown": -9.434111908633081,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.1,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 101,
+  "analysis_date": "2025-08-15T00:16:12.818855"
+}

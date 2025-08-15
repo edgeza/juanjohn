@@ -1,0 +1,21 @@
+{
+  "symbol": "CFXUSDT",
+  "signal": "BUY",
+  "current_price": 0.1766,
+  "potential_return": 18.885267337903226,
+  "total_return": 140.68660770727175,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 4.429393162671644,
+  "max_drawdown": -0.39920159680637557,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 4,
+  "kstd": 1.4,
+  "lookback": 0,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:14:26.865643"
+}

@@ -1,0 +1,19 @@
+{
+  "symbol": "THETAUSDT",
+  "interval": "1d",
+  "current_price": 0.765,
+  "lower_band": 0.6464167875422997,
+  "upper_band": 0.9249387223422183,
+  "signal": "HOLD",
+  "potential_return": 43.087051600078205,
+  "total_return": 111.7032223564068,
+  "sharpe_ratio": 7.5630355044391635,
+  "max_drawdown": 6.961355214399151,
+  "degree": 1,
+  "kstd": 1.4,
+  "lookback": 130,
+  "use_lookback": true,
+  "data_points": 130,
+  "total_available": 720,
+  "analysis_date": "2025-08-01T13:18:52.839350"
+}

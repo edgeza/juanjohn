@@ -1,0 +1,21 @@
+{
+  "symbol": "ALICEUSDT",
+  "signal": "HOLD",
+  "current_price": 0.4165,
+  "potential_return": 36.61122641401473,
+  "total_return": 99.2278317609521,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.645452732871087,
+  "max_drawdown": 13.77572448551029,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 1,
+  "kstd": 1.4,
+  "lookback": 120,
+  "interval": "1d",
+  "data_points": 120,
+  "total_available": 720,
+  "analysis_date": "2025-08-05T15:49:47.901337"
+}

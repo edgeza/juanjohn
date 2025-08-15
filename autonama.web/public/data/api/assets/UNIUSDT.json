@@ -1,0 +1,21 @@
+{
+  "symbol": "UNIUSDT",
+  "signal": "HOLD",
+  "current_price": 10.833,
+  "potential_return": 10.023753939104875,
+  "total_return": 131.0901970418138,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 5.193410838933414,
+  "max_drawdown": -14.774459006400487,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 2.3,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:13:11.869598"
+}

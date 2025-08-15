@@ -1,0 +1,21 @@
+{
+  "symbol": "FDUSDUSDT",
+  "signal": "HOLD",
+  "current_price": 0.9974,
+  "potential_return": 0.025935687287957563,
+  "total_return": 0.0,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 0.0,
+  "max_drawdown": 0.0,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.0,
+  "lookback": 50,
+  "interval": "1d",
+  "data_points": 50,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:12:45.997820"
+}

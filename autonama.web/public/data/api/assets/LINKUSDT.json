@@ -1,0 +1,21 @@
+{
+  "symbol": "LINKUSDT",
+  "signal": "HOLD",
+  "current_price": 22.11,
+  "potential_return": 4.656210514160472,
+  "total_return": 75.36412369886555,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 4.774303780862586,
+  "max_drawdown": -27.459686842720266,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.9,
+  "lookback": 0,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:13:09.162541"
+}

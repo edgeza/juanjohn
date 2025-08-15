@@ -1,0 +1,21 @@
+{
+  "symbol": "INITUSDT",
+  "signal": "SELL",
+  "current_price": 0.48,
+  "potential_return": 22.745585757924616,
+  "total_return": 50.90423126989412,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.34392127910537,
+  "max_drawdown": -0.8717084035382405,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.7000000000000002,
+  "lookback": 60,
+  "interval": "1d",
+  "data_points": 60,
+  "total_available": 112,
+  "analysis_date": "2025-08-13T15:59:25.675634"
+}

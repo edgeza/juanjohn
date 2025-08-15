@@ -1,0 +1,21 @@
+{
+  "symbol": "MAGICUSDT",
+  "signal": "SELL",
+  "current_price": 0.2732,
+  "potential_return": 17.482277535174692,
+  "total_return": 119.67060889671015,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 4.832858584691553,
+  "max_drawdown": -19.183511692429654,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 2,
+  "kstd": 1.2,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 720,
+  "analysis_date": "2025-08-08T16:18:10.319157"
+}

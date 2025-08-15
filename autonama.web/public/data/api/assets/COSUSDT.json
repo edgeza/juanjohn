@@ -1,0 +1,21 @@
+{
+  "symbol": "COSUSDT",
+  "signal": "HOLD",
+  "current_price": 0.003678,
+  "potential_return": 36.658748362956025,
+  "total_return": 78.58165137645629,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.611273935171569,
+  "max_drawdown": 7.2304995617878935,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 1,
+  "kstd": 1.4,
+  "lookback": 150,
+  "interval": "1d",
+  "data_points": 150,
+  "total_available": 720,
+  "analysis_date": "2025-08-06T10:04:20.377321"
+}

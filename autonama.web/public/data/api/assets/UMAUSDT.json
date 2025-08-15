@@ -1,0 +1,21 @@
+{
+  "symbol": "UMAUSDT",
+  "signal": "HOLD",
+  "current_price": 1.357,
+  "potential_return": 3.791429474660848,
+  "total_return": 79.77677489321051,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 8.413029274100706,
+  "max_drawdown": -0.19960079840321,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.0,
+  "lookback": 70,
+  "interval": "1d",
+  "data_points": 70,
+  "total_available": 720,
+  "analysis_date": "2025-08-13T16:00:12.295255"
+}

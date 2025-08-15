@@ -1,0 +1,21 @@
+{
+  "symbol": "PAXGUSDT",
+  "signal": "HOLD",
+  "current_price": 3354.9,
+  "potential_return": 2.2945193562690256,
+  "total_return": 6.26601729866989,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 4.107615474897632,
+  "max_drawdown": -1.3616440989750456,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 1,
+  "kstd": 2.3,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 720,
+  "analysis_date": "2025-08-14T09:30:00.274673"
+}

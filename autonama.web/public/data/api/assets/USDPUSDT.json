@@ -1,0 +1,21 @@
+{
+  "symbol": "USDPUSDT",
+  "signal": "HOLD",
+  "current_price": 1.0006,
+  "potential_return": 0.23765238893890422,
+  "total_return": 0.0,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": null,
+  "max_drawdown": null,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 2.6,
+  "lookback": 280,
+  "interval": "1d",
+  "data_points": 280,
+  "total_available": 720,
+  "analysis_date": "2025-08-05T13:16:11.967690"
+}

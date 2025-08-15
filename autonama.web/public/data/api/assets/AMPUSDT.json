@@ -1,0 +1,21 @@
+{
+  "symbol": "AMPUSDT",
+  "signal": "HOLD",
+  "current_price": 0.003553,
+  "potential_return": 51.864454927969525,
+  "total_return": 93.00403544627558,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 3.1738236885381497,
+  "max_drawdown": 18.682936093438414,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.2,
+  "lookback": 250,
+  "interval": "1d",
+  "data_points": 250,
+  "total_available": 720,
+  "analysis_date": "2025-08-03T21:53:54.612859"
+}

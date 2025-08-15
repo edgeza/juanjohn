@@ -1,0 +1,21 @@
+{
+  "symbol": "CVXUSDT",
+  "signal": "HOLD",
+  "current_price": 4.31,
+  "potential_return": 43.67868241218695,
+  "total_return": 218.99843184032198,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.751815043472283,
+  "max_drawdown": 9.733803720333563,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 1,
+  "kstd": 1.2,
+  "lookback": 180,
+  "interval": "1d",
+  "data_points": 180,
+  "total_available": 720,
+  "analysis_date": "2025-08-05T15:51:34.209314"
+}

@@ -1,0 +1,21 @@
+{
+  "symbol": "RAREUSDT",
+  "signal": "HOLD",
+  "current_price": 0.0642,
+  "potential_return": 8.94539042760745,
+  "total_return": 99.49723833453186,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 7.237514966545168,
+  "max_drawdown": -5.099693251533733,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.5,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 720,
+  "analysis_date": "2025-08-08T16:20:24.835092"
+}

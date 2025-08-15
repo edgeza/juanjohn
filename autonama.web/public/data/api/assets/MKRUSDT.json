@@ -1,0 +1,21 @@
+{
+  "symbol": "MKRUSDT",
+  "signal": "HOLD",
+  "current_price": 1842.8,
+  "potential_return": 3.2117597075849664,
+  "total_return": 68.07094354689771,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.65871270756407,
+  "max_drawdown": -3.1800526887933334,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 2,
+  "kstd": 1.0,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:16:27.287248"
+}

@@ -1,0 +1,21 @@
+{
+  "symbol": "TUTUSDT",
+  "signal": "HOLD",
+  "current_price": 0.05996,
+  "potential_return": 7.38051073382853,
+  "total_return": 141.1484595092365,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 7.7462132088194355,
+  "max_drawdown": -3.8759139632284945,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 4,
+  "kstd": 1.3,
+  "lookback": 80,
+  "interval": "1d",
+  "data_points": 80,
+  "total_available": 135,
+  "analysis_date": "2025-08-08T16:20:27.862973"
+}

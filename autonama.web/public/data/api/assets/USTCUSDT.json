@@ -1,0 +1,21 @@
+{
+  "symbol": "USTCUSDT",
+  "signal": "HOLD",
+  "current_price": 0.01344,
+  "potential_return": 107.81858126357776,
+  "total_return": 13.713089674127463,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 0.674630552489636,
+  "max_drawdown": 40.79268940601424,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 1,
+  "kstd": 1.4,
+  "lookback": 250,
+  "interval": "1d",
+  "data_points": 250,
+  "total_available": 720,
+  "analysis_date": "2025-08-03T21:49:42.752455"
+}

@@ -1,0 +1,21 @@
+{
+  "symbol": "ARBUSDT",
+  "signal": "HOLD",
+  "current_price": 0.5096,
+  "potential_return": 6.894825700473003,
+  "total_return": 161.01371549747725,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 8.242515101331607,
+  "max_drawdown": -4.459334565619222,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.2,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:13:14.563864"
+}

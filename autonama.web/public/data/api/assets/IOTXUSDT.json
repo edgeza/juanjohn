@@ -1,0 +1,21 @@
+{
+  "symbol": "IOTXUSDT",
+  "signal": "HOLD",
+  "current_price": 0.0287,
+  "potential_return": 31.00845169205787,
+  "total_return": 78.8964477736082,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 4.57343757709463,
+  "max_drawdown": 9.098369063493681,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 2,
+  "kstd": 2.0,
+  "lookback": 190,
+  "interval": "1d",
+  "data_points": 190,
+  "total_available": 720,
+  "analysis_date": "2025-08-03T16:56:45.067824"
+}

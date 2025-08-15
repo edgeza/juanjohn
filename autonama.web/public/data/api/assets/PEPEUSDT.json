@@ -1,0 +1,21 @@
+{
+  "symbol": "PEPEUSDT",
+  "signal": "HOLD",
+  "current_price": 1.094e-05,
+  "potential_return": 5.423671288459144,
+  "total_return": 136.96882519631046,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 5.444906327533213,
+  "max_drawdown": -6.323083585967937,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.0,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:13:06.662756"
+}

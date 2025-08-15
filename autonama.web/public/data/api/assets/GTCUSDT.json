@@ -1,0 +1,21 @@
+{
+  "symbol": "GTCUSDT",
+  "signal": "HOLD",
+  "current_price": 0.379,
+  "potential_return": 8.57999911733231,
+  "total_return": 96.68054379123046,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 7.461683709375255,
+  "max_drawdown": -2.2959183673469385,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 2,
+  "kstd": 1.2,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:14:36.044755"
+}

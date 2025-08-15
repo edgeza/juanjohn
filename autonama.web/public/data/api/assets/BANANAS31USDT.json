@@ -1,0 +1,21 @@
+{
+  "symbol": "BANANAS31USDT",
+  "signal": "HOLD",
+  "current_price": 0.006723,
+  "potential_return": 197.95288891392747,
+  "total_return": 136.74091753326414,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 3.996711044659439,
+  "max_drawdown": 6.318699401039959,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.7000000000000002,
+  "lookback": 250,
+  "interval": "1d",
+  "data_points": 132,
+  "total_available": 132,
+  "analysis_date": "2025-08-05T15:51:51.329339"
+}

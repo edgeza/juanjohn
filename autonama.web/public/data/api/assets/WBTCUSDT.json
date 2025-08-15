@@ -1,0 +1,21 @@
+{
+  "symbol": "WBTCUSDT",
+  "signal": "HOLD",
+  "current_price": 118062.75,
+  "potential_return": 2.2834668568577072,
+  "total_return": 29.35569468327359,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 7.711173295021276,
+  "max_drawdown": -0.896414426721015,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.2,
+  "lookback": 0,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:16:44.603891"
+}

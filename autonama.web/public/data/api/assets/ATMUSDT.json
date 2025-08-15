@@ -1,0 +1,21 @@
+{
+  "symbol": "ATMUSDT",
+  "signal": "SELL",
+  "current_price": 1.634,
+  "potential_return": 16.90442195410224,
+  "total_return": 59.16457545768141,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 5.14731301724774,
+  "max_drawdown": -6.13107474563922,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 2,
+  "kstd": 1.0,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 720,
+  "analysis_date": "2025-08-08T16:20:17.952739"
+}

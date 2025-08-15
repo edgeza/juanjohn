@@ -1,0 +1,21 @@
+{
+  "symbol": "ILVUSDT",
+  "signal": "SELL",
+  "current_price": 19.88,
+  "potential_return": 13.835216308094452,
+  "total_return": 71.63590920240249,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 4.407839142932546,
+  "max_drawdown": -14.350298697882602,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 4,
+  "kstd": 1.3,
+  "lookback": 0,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 720,
+  "analysis_date": "2025-08-08T16:21:01.347983"
+}

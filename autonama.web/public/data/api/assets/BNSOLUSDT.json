@@ -1,0 +1,21 @@
+{
+  "symbol": "BNSOLUSDT",
+  "signal": "HOLD",
+  "current_price": 174.9,
+  "potential_return": 21.871637125892512,
+  "total_return": 102.15285588861447,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 8.919812043738093,
+  "max_drawdown": 4.1402605054650925,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.4,
+  "lookback": 140,
+  "interval": "1d",
+  "data_points": 140,
+  "total_available": 294,
+  "analysis_date": "2025-08-06T10:03:29.521928"
+}

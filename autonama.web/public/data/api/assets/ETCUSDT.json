@@ -1,0 +1,21 @@
+{
+  "symbol": "ETCUSDT",
+  "signal": "SELL",
+  "current_price": 22.01,
+  "potential_return": 13.164678826234736,
+  "total_return": 72.08001953602006,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.269166540241022,
+  "max_drawdown": -5.321696991180335,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 4,
+  "kstd": 1.0,
+  "lookback": 0,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:14:55.266951"
+}

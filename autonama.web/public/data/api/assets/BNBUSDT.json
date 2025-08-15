@@ -1,0 +1,21 @@
+{
+  "symbol": "BNBUSDT",
+  "signal": "HOLD",
+  "current_price": 832.59,
+  "potential_return": 1.2973402309597757,
+  "total_return": 44.55851337579051,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 9.688636003126717,
+  "max_drawdown": -2.060782807045125,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.1,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:12:54.837290"
+}

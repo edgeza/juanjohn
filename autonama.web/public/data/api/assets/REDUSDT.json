@@ -1,0 +1,21 @@
+{
+  "symbol": "REDUSDT",
+  "signal": "HOLD",
+  "current_price": 0.3899,
+  "potential_return": 44.49476897286752,
+  "total_return": 217.57362225008987,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 4.502319104470495,
+  "max_drawdown": 19.596637067825416,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 2,
+  "kstd": 1.1,
+  "lookback": 160,
+  "interval": "1d",
+  "data_points": 159,
+  "total_available": 159,
+  "analysis_date": "2025-08-05T15:47:10.960721"
+}

@@ -1,0 +1,21 @@
+{
+  "symbol": "ZROUSDT",
+  "signal": "HOLD",
+  "current_price": 2.113,
+  "potential_return": 2.942528105315975,
+  "total_return": 96.40738988412427,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 7.063911672617144,
+  "max_drawdown": -6.315789473684186,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 2,
+  "kstd": 1.2,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 421,
+  "analysis_date": "2025-08-15T00:16:41.885308"
+}

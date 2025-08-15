@@ -1,0 +1,21 @@
+{
+  "symbol": "FLOKIUSDT",
+  "signal": "HOLD",
+  "current_price": 0.00010351,
+  "potential_return": 22.593512007234978,
+  "total_return": 91.3260385835298,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.158762404821618,
+  "max_drawdown": -1.068830589038583,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 1,
+  "kstd": 1.6,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:14:48.100997"
+}

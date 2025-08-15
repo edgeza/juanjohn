@@ -1,0 +1,21 @@
+{
+  "symbol": "ENAUSDT",
+  "signal": "SELL",
+  "current_price": 0.7107,
+  "potential_return": 8.01416469697217,
+  "total_return": 283.9724004763582,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 8.4046986326311,
+  "max_drawdown": -5.2631032947099365,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 4,
+  "kstd": 1.0,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 500,
+  "analysis_date": "2025-08-15T00:13:03.349588"
+}

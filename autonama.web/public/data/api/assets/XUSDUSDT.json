@@ -1,0 +1,21 @@
+{
+  "symbol": "XUSDUSDT",
+  "signal": "HOLD",
+  "current_price": 0.9997,
+  "potential_return": 0.017300112928759513,
+  "total_return": 0.0,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 0.0,
+  "max_drawdown": 0.0,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 4,
+  "kstd": 1.2,
+  "lookback": 60,
+  "interval": "1d",
+  "data_points": 60,
+  "total_available": 149,
+  "analysis_date": "2025-08-14T09:29:19.139281"
+}

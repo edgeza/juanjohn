@@ -1,0 +1,21 @@
+{
+  "symbol": "XTZUSDT",
+  "signal": "HOLD",
+  "current_price": 0.8867,
+  "potential_return": 2.2482593528231756,
+  "total_return": 87.04903865558452,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.061936641432198,
+  "max_drawdown": -13.560456477360194,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.1,
+  "lookback": 70,
+  "interval": "1d",
+  "data_points": 70,
+  "total_available": 720,
+  "analysis_date": "2025-08-13T12:44:06.491640"
+}

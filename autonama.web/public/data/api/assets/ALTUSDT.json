@@ -1,0 +1,21 @@
+{
+  "symbol": "ALTUSDT",
+  "signal": "SELL",
+  "current_price": 0.03852,
+  "potential_return": 19.426267934768653,
+  "total_return": 150.67391638164503,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.3847770739279595,
+  "max_drawdown": -7.35681252223408,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 4,
+  "kstd": 1.2,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 567,
+  "analysis_date": "2025-08-13T16:00:26.867038"
+}

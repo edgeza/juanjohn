@@ -1,0 +1,21 @@
+{
+  "symbol": "ORCAUSDT",
+  "signal": "HOLD",
+  "current_price": 2.637,
+  "potential_return": 5.318553459956275,
+  "total_return": 53.885230952830376,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.846748808299456,
+  "max_drawdown": -1.761846901579589,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.1,
+  "lookback": 80,
+  "interval": "1d",
+  "data_points": 80,
+  "total_available": 246,
+  "analysis_date": "2025-08-08T16:20:38.470769"
+}

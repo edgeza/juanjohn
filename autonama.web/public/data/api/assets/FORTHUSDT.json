@@ -1,0 +1,21 @@
+{
+  "symbol": "FORTHUSDT",
+  "signal": "SELL",
+  "current_price": 2.811,
+  "potential_return": 13.33490861309935,
+  "total_return": 67.07408285954432,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 7.886730732611941,
+  "max_drawdown": -2.6635128592288226,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 4,
+  "kstd": 1.1,
+  "lookback": 0,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:16:20.100686"
+}

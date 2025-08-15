@@ -1,0 +1,21 @@
+{
+  "symbol": "ZKUSDT",
+  "signal": "HOLD",
+  "current_price": 0.06292,
+  "potential_return": 7.691678709805028,
+  "total_return": 121.05827522242257,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.3703596182954465,
+  "max_drawdown": -4.7603717296589405,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.0,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 424,
+  "analysis_date": "2025-08-15T00:15:40.199776"
+}

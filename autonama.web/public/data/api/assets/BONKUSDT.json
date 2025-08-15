@@ -1,0 +1,21 @@
+{
+  "symbol": "BONKUSDT",
+  "signal": "HOLD",
+  "current_price": 2.353e-05,
+  "potential_return": 15.192657119323066,
+  "total_return": 143.32758770315445,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.960274466025872,
+  "max_drawdown": -0.19960079840318778,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 1,
+  "kstd": 1.4,
+  "lookback": 90,
+  "interval": "1d",
+  "data_points": 90,
+  "total_available": 609,
+  "analysis_date": "2025-08-15T00:13:31.041286"
+}

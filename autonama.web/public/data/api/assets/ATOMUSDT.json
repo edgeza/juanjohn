@@ -1,0 +1,21 @@
+{
+  "symbol": "ATOMUSDT",
+  "signal": "HOLD",
+  "current_price": 4.481,
+  "potential_return": 6.7728492834984095,
+  "total_return": 70.09391276458574,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 7.6026964346165435,
+  "max_drawdown": -1.5739616225406539,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.2,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:16:08.071359"
+}

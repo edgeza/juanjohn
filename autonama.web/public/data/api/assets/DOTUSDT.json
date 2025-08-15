@@ -1,0 +1,21 @@
+{
+  "symbol": "DOTUSDT",
+  "signal": "BUY",
+  "current_price": 3.948,
+  "potential_return": 8.401431334735097,
+  "total_return": 50.542084435971965,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 12.57969410860543,
+  "max_drawdown": -1.1262859655122082,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 4,
+  "kstd": 1.4,
+  "lookback": 50,
+  "interval": "1d",
+  "data_points": 50,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:14:08.512821"
+}

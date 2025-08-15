@@ -1,0 +1,21 @@
+{
+  "symbol": "OPUSDT",
+  "signal": "HOLD",
+  "current_price": 0.747,
+  "potential_return": 7.263756093246842,
+  "total_return": 123.89369733788547,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 7.149943771222133,
+  "max_drawdown": -4.892643435410038,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 2,
+  "kstd": 1.0,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:13:52.056180"
+}

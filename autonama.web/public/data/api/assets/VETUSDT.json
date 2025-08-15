@@ -1,0 +1,21 @@
+{
+  "symbol": "VETUSDT",
+  "signal": "HOLD",
+  "current_price": 0.02435,
+  "potential_return": 1.3918101081497392,
+  "total_return": 45.54341989535708,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 11.135229966160784,
+  "max_drawdown": -0.8510571406114997,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.6,
+  "lookback": 50,
+  "interval": "1d",
+  "data_points": 50,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:15:52.734852"
+}

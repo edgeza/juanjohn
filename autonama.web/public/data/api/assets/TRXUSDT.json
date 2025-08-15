@@ -1,0 +1,21 @@
+{
+  "symbol": "TRXUSDT",
+  "signal": "HOLD",
+  "current_price": 0.3553,
+  "potential_return": 2.24239752550863,
+  "total_return": 31.894353118001952,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 9.166903329943615,
+  "max_drawdown": -2.1929185487396086,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.7000000000000002,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:12:57.637572"
+}

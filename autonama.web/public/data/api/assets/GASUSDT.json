@@ -1,0 +1,21 @@
+{
+  "symbol": "GASUSDT",
+  "signal": "HOLD",
+  "current_price": 3.176,
+  "potential_return": 21.366103265164703,
+  "total_return": 59.72351566126362,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 3.2813378752411277,
+  "max_drawdown": 20.04143856676691,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 1,
+  "kstd": 1.0,
+  "lookback": 160,
+  "interval": "1d",
+  "data_points": 160,
+  "total_available": 720,
+  "analysis_date": "2025-08-06T10:01:54.353295"
+}

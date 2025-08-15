@@ -1,0 +1,19 @@
+{
+  "symbol": "NOTUSDT",
+  "interval": "1d",
+  "current_price": 0.001985,
+  "lower_band": 0.0012760192577037912,
+  "upper_band": 0.002347615755607785,
+  "signal": "HOLD",
+  "potential_return": 83.97964932224784,
+  "total_return": 75.16772145821193,
+  "sharpe_ratio": 4.417786780162441,
+  "max_drawdown": 14.451943216197341,
+  "degree": 3,
+  "kstd": 1.7000000000000002,
+  "lookback": 170,
+  "use_lookback": true,
+  "data_points": 170,
+  "total_available": 443,
+  "analysis_date": "2025-08-01T13:18:14.084823"
+}

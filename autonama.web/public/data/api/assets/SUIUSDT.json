@@ -1,0 +1,21 @@
+{
+  "symbol": "SUIUSDT",
+  "signal": "HOLD",
+  "current_price": 3.6985,
+  "potential_return": 2.7692758173491505,
+  "total_return": 69.68804710986774,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 5.516913300447924,
+  "max_drawdown": -6.577869971906447,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.0,
+  "lookback": 0,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:13:00.172717"
+}

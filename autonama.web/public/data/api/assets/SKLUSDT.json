@@ -1,0 +1,21 @@
+{
+  "symbol": "SKLUSDT",
+  "signal": "SELL",
+  "current_price": 0.05007,
+  "potential_return": 27.32798639116653,
+  "total_return": 102.36659658612548,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 6.649835773645251,
+  "max_drawdown": -2.296877275170439,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 4,
+  "kstd": 1.5,
+  "lookback": 0,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:13:25.448718"
+}

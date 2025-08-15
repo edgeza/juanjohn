@@ -1,0 +1,21 @@
+{
+  "symbol": "HIFIUSDT",
+  "signal": "HOLD",
+  "current_price": 0.0944,
+  "potential_return": 6.785304517322897,
+  "total_return": 90.19690673533918,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 5.977528002731109,
+  "max_drawdown": -18.969849246231163,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 4,
+  "kstd": 1.2,
+  "lookback": 60,
+  "interval": "1d",
+  "data_points": 60,
+  "total_available": 720,
+  "analysis_date": "2025-08-13T15:59:23.281403"
+}

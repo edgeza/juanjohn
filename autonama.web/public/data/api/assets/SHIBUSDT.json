@@ -1,0 +1,21 @@
+{
+  "symbol": "SHIBUSDT",
+  "signal": "HOLD",
+  "current_price": 1.274e-05,
+  "potential_return": 3.6319575099061807,
+  "total_return": 69.04892203784236,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 7.17160022688292,
+  "max_drawdown": -1.645094562647731,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 2,
+  "kstd": 1.2,
+  "lookback": 100,
+  "interval": "1d",
+  "data_points": 100,
+  "total_available": 719,
+  "analysis_date": "2025-08-15T00:14:38.257499"
+}

@@ -1,0 +1,21 @@
+{
+  "symbol": "RESOLVUSDT",
+  "signal": "BUY",
+  "current_price": 0.1783,
+  "potential_return": 14.463716014001404,
+  "total_return": 35.26318657730354,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 5.136493535284594,
+  "max_drawdown": 9.338788506102578,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.3,
+  "lookback": 150,
+  "interval": "1d",
+  "data_points": 56,
+  "total_available": 56,
+  "analysis_date": "2025-08-05T13:16:39.132734"
+}

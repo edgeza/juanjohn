@@ -1,0 +1,21 @@
+{
+  "symbol": "BBUSDT",
+  "signal": "SELL",
+  "current_price": 0.1363,
+  "potential_return": 24.23945443462471,
+  "total_return": 75.85762287573922,
+  "signal_strength": 0,
+  "risk_level": "MEDIUM",
+  "sharpe_ratio": 8.144231523224548,
+  "max_drawdown": -2.087553610830284,
+  "optimized_degree": null,
+  "optimized_kstd": null,
+  "optimized_lookback": null,
+  "degree": 3,
+  "kstd": 1.6,
+  "lookback": 50,
+  "interval": "1d",
+  "data_points": 50,
+  "total_available": 453,
+  "analysis_date": "2025-08-08T16:18:36.779137"
+}

@@ -1,0 +1,19 @@
+{
+  "ingestion_time": "2025-08-15T00:16:51.242677",
+  "source_run": "optimization_run_20250815_001123",
+  "source_path": "E:\\Autonama\\Gitlab\\AutonamaDash\\autonama.engine\\export_results\\optimization_run_20250815_001123",
+  "data_summary": {
+    "total_alerts": 94,
+    "total_analytics": 94,
+    "total_assets": 94,
+    "has_summary": true
+  },
+  "docker_paths": {
+    "main_data": "E:\\Autonama\\Gitlab\\AutonamaDash\\autonama.web\\public\\data\\optimization_data.json",
+    "api_dir": "E:\\Autonama\\Gitlab\\AutonamaDash\\autonama.web\\public\\data\\api",
+    "alerts": "E:\\Autonama\\Gitlab\\AutonamaDash\\autonama.web\\public\\data\\api\\alerts.json",
+    "analytics": "E:\\Autonama\\Gitlab\\AutonamaDash\\autonama.web\\public\\data\\api\\analytics.json",
+    "summary": "E:\\Autonama\\Gitlab\\AutonamaDash\\autonama.web\\public\\data\\api\\summary.json",
+    "assets": "E:\\Autonama\\Gitlab\\AutonamaDash\\autonama.web\\public\\data\\api\\assets.json"
+  }
+}
