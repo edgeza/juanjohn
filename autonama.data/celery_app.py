@@ -10,8 +10,13 @@ setup_celery_logging()
 logger = get_task_logger("celery_app")
 
 # Create runtime directory if it doesn't exist
-runtime_dir = os.path.join(os.path.dirname(__file__), 'runtime', 'celery')
-os.makedirs(runtime_dir, exist_ok=True)
+runtime_dir = os.getenv('CELERY_RUNTIME_DIR', '/tmp/celery')
+try:
+    os.makedirs(runtime_dir, exist_ok=True)
+except Exception:
+    # Fallback to /tmp if runtime_dir not writable
+    runtime_dir = '/tmp/celery'
+    os.makedirs(runtime_dir, exist_ok=True)
 
 # Celery configuration - SIMPLIFIED: Focus on crypto only
 celery_app = Celery(
