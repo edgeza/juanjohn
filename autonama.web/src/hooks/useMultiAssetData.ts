@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useCallback } from 'react';
+import { getPublicApiBase } from '@/lib/runtimeEnv';
 import { AssetType } from '@/types/multi-asset';
 import type { 
   AssetInfo, 
@@ -86,7 +87,7 @@ export const useMultiAssetData = () => {
   }, []);
 
   // API base URL
-  const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8002';
+  const API_BASE = getPublicApiBase();
 
   // Fetch assets by type
   const fetchAssets = useCallback(async (assetType: AssetType, limit = 50, offset = 0) => {

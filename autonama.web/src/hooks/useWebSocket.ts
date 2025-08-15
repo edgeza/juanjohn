@@ -141,16 +141,16 @@ export function useWebSocket(url: string, options: UseWebSocketOptions = {}) {
 
 // Specialized hooks for different WebSocket endpoints
 export function useSignalsWebSocket(options: Omit<UseWebSocketOptions, 'url'> = {}) {
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8002';
+  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://129.232.243.210:8000';
   return useWebSocket(`${API_BASE_URL}/v1/ws/signals`, options);
 }
 
 export function useMarketDataWebSocket(options: Omit<UseWebSocketOptions, 'url'> = {}) {
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8002';
+  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://129.232.243.210:8000';
   return useWebSocket(`${API_BASE_URL}/v1/ws/market-data`, options);
 }
 
 export function useOptimizationWebSocket(options: Omit<UseWebSocketOptions, 'url'> = {}) {
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8002';
+  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://129.232.243.210:8000';
   return useWebSocket(`${API_BASE_URL}/v1/ws/optimization`, options);
 }

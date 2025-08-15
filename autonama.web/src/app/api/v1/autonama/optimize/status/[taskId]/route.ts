@@ -112,7 +112,7 @@ export async function GET(
   
   // For any other task ID, try to fetch from the actual API
   try {
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://129.232.243.210:8000';
     const response = await fetch(`${apiUrl}/v1/autonama/optimize/status/${taskId}`);
     
     if (response.ok) {

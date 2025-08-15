@@ -131,7 +131,7 @@ export default function DataTestPage() {
             <div className="mt-4">
               <h4 className="font-medium text-red-800">Troubleshooting:</h4>
               <ul className="list-disc list-inside text-red-600 text-sm mt-2 space-y-1">
-                <li>Check if API is running: <code>curl http://localhost:8000/health</code></li>
+                <li>Check if API is running: <code>curl http://129.232.243.210:8000/health</code></li>
                 <li>Check CORS configuration in FastAPI</li>
                 <li>Verify network connectivity between frontend and API</li>
                 <li>Check browser console for additional error details</li>
@@ -355,7 +355,7 @@ export default function DataTestPage() {
           <h2 className="text-2xl font-semibold mb-4">Debug Information</h2>
           <div className="space-y-2 text-sm">
             <p><strong>Frontend URL:</strong> http://localhost:3002</p>
-            <p><strong>API URL:</strong> {(typeof window !== 'undefined' ? (await import('@/lib/runtimeEnv')).getPublicApiBase() : (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'))}</p>
+            <p><strong>API URL:</strong> {(typeof window !== 'undefined' ? (await import('@/lib/runtimeEnv')).getPublicApiBase() : (process.env.NEXT_PUBLIC_API_URL || 'http://129.232.243.210:8000'))}</p>
             <p><strong>API Health:</strong> /v1/data/health</p>
             <p><strong>Browser Console:</strong> Check for additional error messages</p>
             <p><strong>CORS Status:</strong> {connectionTest?.status === 'success' ? 'Working' : 'May have issues'}</p>
