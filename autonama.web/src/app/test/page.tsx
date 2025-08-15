@@ -292,7 +292,7 @@ export default function TestPage() {
             <div>
               <h4 className="font-medium text-gray-800 mb-2">Environment</h4>
               <div className="text-sm text-gray-600 space-y-1">
-                <div>API URL: {process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}</div>
+                <div>API URL: {(typeof window !== 'undefined' ? (await import('@/lib/runtimeEnv')).getPublicApiBase() : (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'))}</div>
                 <div>Node Environment: {process.env.NODE_ENV}</div>
                 <div>Build Time: {new Date().toISOString()}</div>
               </div>

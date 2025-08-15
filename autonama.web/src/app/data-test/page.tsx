@@ -19,7 +19,9 @@ export default function DataTestPage() {
         
         // Test direct API connection first
         console.log('Testing API connection...');
-        const directTest = await fetch('http://localhost:8000/v1/data/health');
+        const { getPublicApiBase } = await import('@/lib/runtimeEnv');
+        const apiBase = getPublicApiBase();
+        const directTest = await fetch(`${apiBase}/v1/data/health`);
         const directResult = await directTest.json();
         setConnectionTest({
           status: 'success',
@@ -353,8 +355,8 @@ export default function DataTestPage() {
           <h2 className="text-2xl font-semibold mb-4">Debug Information</h2>
           <div className="space-y-2 text-sm">
             <p><strong>Frontend URL:</strong> http://localhost:3002</p>
-            <p><strong>API URL:</strong> http://localhost:8000</p>
-            <p><strong>API Health:</strong> http://localhost:8000/v1/data/health</p>
+            <p><strong>API URL:</strong> {(typeof window !== 'undefined' ? (await import('@/lib/runtimeEnv')).getPublicApiBase() : (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'))}</p>
+            <p><strong>API Health:</strong> /v1/data/health</p>
             <p><strong>Browser Console:</strong> Check for additional error messages</p>
             <p><strong>CORS Status:</strong> {connectionTest?.status === 'success' ? 'Working' : 'May have issues'}</p>
           </div>

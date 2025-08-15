@@ -81,7 +81,9 @@ export default function AnalyticsPage() {
   const fetchAnalyticsData = async () => {
     try {
       setLoading(true);
-      const response = await fetch('http://localhost:8000/api/v1/data/analytics-dashboard');
+      const { getPublicApiBase } = await import('@/lib/runtimeEnv');
+      const apiBase = getPublicApiBase();
+      const response = await fetch(`${apiBase}/api/v1/data/analytics-dashboard`);
       if (!response.ok) {
         throw new Error('Failed to fetch analytics data');
       }
@@ -99,7 +101,9 @@ export default function AnalyticsPage() {
 
   const fetchAssetAnalytics = async (symbol: string) => {
     try {
-      const response = await fetch(`http://localhost:8000/api/v1/data/analytics/${symbol}`);
+      const { getPublicApiBase } = await import('@/lib/runtimeEnv');
+      const apiBase = getPublicApiBase();
+      const response = await fetch(`${apiBase}/api/v1/data/analytics/${symbol}`);
       if (!response.ok) {
         throw new Error('Failed to fetch asset analytics');
       }

@@ -39,7 +39,9 @@ export default function AlertsPage() {
       setError(null);
       
       // Fetch alerts from the database (bust cache, always get fresh)
-      const alertsResponse = await fetch(`http://localhost:8000/api/v1/optimization/alerts?v=${Date.now()}` , { cache: 'no-store' });
+      const { getPublicApiBase } = await import('@/lib/runtimeEnv');
+      const apiBase = getPublicApiBase();
+      const alertsResponse = await fetch(`${apiBase}/api/v1/optimization/alerts?v=${Date.now()}` , { cache: 'no-store' });
       if (!alertsResponse.ok) {
         throw new Error(`Failed to fetch alerts: ${alertsResponse.status}`);
       }

@@ -40,7 +40,9 @@ export default function AssetAnalyticsPage() {
       setError(null);
       
       // Fetch analytics for this specific asset
-      const analyticsResponse = await fetch(`http://localhost:8000/api/v1/data/analytics/${encodeURIComponent(symbol)}`);
+      const { getPublicApiBase } = await import('@/lib/runtimeEnv');
+      const apiBase = getPublicApiBase();
+      const analyticsResponse = await fetch(`${apiBase}/api/v1/data/analytics/${encodeURIComponent(symbol)}`);
       if (!analyticsResponse.ok) {
         throw new Error(`Failed to fetch analytics: ${analyticsResponse.status}`);
       }
@@ -48,7 +50,7 @@ export default function AssetAnalyticsPage() {
       setAnalytics(analyticsData);
       
       // Fetch historical data for charts
-      const historicalResponse = await fetch(`http://localhost:8000/api/v1/data/historical/${encodeURIComponent(symbol)}?days=30`);
+      const historicalResponse = await fetch(`${apiBase}/api/v1/data/historical/${encodeURIComponent(symbol)}?days=30`);
       if (historicalResponse.ok) {
         const historicalData = await historicalResponse.json();
         setHistoricalData(historicalData);
