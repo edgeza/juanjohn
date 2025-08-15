@@ -1,25 +1,31 @@
 FROM node:20-alpine
 
+# Fix for some native modules and ensure compatibility
+RUN apk add --no-cache libc6-compat
+
 # Set working directory
 WORKDIR /app
 
 # Install dependencies
 COPY package*.json ./
-RUN npm install --omit=dev --legacy-peer-deps
+RUN npm ci --legacy-peer-deps
 
 # Copy source code
 COPY . .
 
-# Create non-root user
-RUN addgroup -g 1001 -S nodejs
-RUN adduser -S nextjs -u 1001
+# Build the Next.js app for production
+RUN npm run build
 
-# Change ownership of the app directory
-RUN chown -R nextjs:nodejs /app
+# Use a non-root user
+RUN addgroup -g 1001 -S nodejs \
+    && adduser -S nextjs -u 1001 \
+    && chown -R nextjs:nodejs /app
 USER nextjs
+
+ENV NODE_ENV=production
 
 # Expose port
 EXPOSE 3001
 
-# Start the application
-CMD ["npm", "run", "dev"]
+# Start the application (production server)
+CMD ["npm", "run", "start", "--", "-p", "3001"]
