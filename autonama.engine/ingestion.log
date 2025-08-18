@@ -452,3 +452,19 @@
 2025-08-15 00:16:51,243 - INFO - Docker ingestion completed successfully!
 2025-08-15 00:16:51,243 - INFO - Data summary: {'total_alerts': 94, 'total_analytics': 94, 'total_assets': 94, 'has_summary': True}
 2025-08-15 00:16:51,243 - INFO - Data available at: E:\Autonama\Gitlab\AutonamaDash\autonama.web\public\data
+2025-08-18 11:47:36,130 - INFO - Starting Docker ingestion process...
+2025-08-18 11:47:36,133 - INFO - Found latest optimization run: optimization_run_20250818_114156
+2025-08-18 11:47:36,149 - INFO - Loaded 97 alerts from alerts_20250818_114156.json
+2025-08-18 11:47:36,163 - INFO - Loaded analytics from analytics_20250818_114156.json
+2025-08-18 11:47:36,179 - INFO - Loaded plots data from plots_data_20250818_114156.json
+2025-08-18 11:47:36,193 - INFO - Loaded summary from summary_20250818_114156.json
+2025-08-18 11:47:36,213 - INFO - Saved main data to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\optimization_data.json
+2025-08-18 11:47:36,220 - INFO - Saved alerts to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\api\alerts.json
+2025-08-18 11:47:36,227 - INFO - Saved analytics to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\api\analytics.json
+2025-08-18 11:47:36,229 - INFO - Saved summary to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\api\summary.json
+2025-08-18 11:47:36,233 - INFO - Saved assets to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\api\assets.json
+2025-08-18 11:47:36,312 - INFO - Saved 97 individual asset files
+2025-08-18 11:47:36,314 - INFO - Created ingestion manifest: C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\ingestion_manifest.json
+2025-08-18 11:47:36,314 - INFO - Docker ingestion completed successfully!
+2025-08-18 11:47:36,314 - INFO - Data summary: {'total_alerts': 97, 'total_analytics': 97, 'total_assets': 97, 'has_summary': True}
+2025-08-18 11:47:36,314 - INFO - Data available at: C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data
