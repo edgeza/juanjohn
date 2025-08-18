@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { useAssetsStore, useSignalsStore, useOptimizationStore } from '@/store';
 import apiClient from '@/lib/apiClient';
+import { getPublicApiBase } from '@/lib/runtimeEnv';
 
 export default function TestPage() {
   // Get data from Zustand stores
@@ -37,6 +38,20 @@ export default function TestPage() {
   const [healthCheck, setHealthCheck] = useState<any>(null);
   const [healthLoading, setHealthLoading] = useState(false);
   const [healthError, setHealthError] = useState<any>(null);
+  const [apiUrl, setApiUrl] = useState<string>('');
+
+  // Get API URL once on component mount
+  useEffect(() => {
+    const getApiUrl = async () => {
+      try {
+        const url = getPublicApiBase();
+        setApiUrl(url);
+      } catch (error) {
+        setApiUrl(process.env.NEXT_PUBLIC_API_URL || 'http://129.232.243.210:8000');
+      }
+    };
+    getApiUrl();
+  }, []);
 
   // Test health check
   useEffect(() => {
@@ -292,7 +307,7 @@ export default function TestPage() {
             <div>
               <h4 className="font-medium text-gray-800 mb-2">Environment</h4>
               <div className="text-sm text-gray-600 space-y-1">
-                <div>API URL: {(typeof window !== 'undefined' ? (await import('@/lib/runtimeEnv')).getPublicApiBase() : (process.env.NEXT_PUBLIC_API_URL || 'http://129.232.243.210:8000'))}</div>
+                <div>API URL: {apiUrl}</div>
                 <div>Node Environment: {process.env.NODE_ENV}</div>
                 <div>Build Time: {new Date().toISOString()}</div>
               </div>

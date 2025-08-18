@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { apiClient } from '@/lib/api';
+import { getPublicApiBase } from '@/lib/runtimeEnv';
 
 export default function DataTestPage() {
   const [assets, setAssets] = useState<any[]>([]);
@@ -10,6 +11,20 @@ export default function DataTestPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [connectionTest, setConnectionTest] = useState<any>(null);
+  const [apiUrl, setApiUrl] = useState<string>('');
+
+  useEffect(() => {
+    // Get API URL once on component mount
+    const getApiUrl = async () => {
+      try {
+        const url = getPublicApiBase();
+        setApiUrl(url);
+      } catch (error) {
+        setApiUrl(process.env.NEXT_PUBLIC_API_URL || 'http://129.232.243.210:8000');
+      }
+    };
+    getApiUrl();
+  }, []);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -19,7 +34,6 @@ export default function DataTestPage() {
         
         // Test direct API connection first
         console.log('Testing API connection...');
-        const { getPublicApiBase } = await import('@/lib/runtimeEnv');
         const apiBase = getPublicApiBase();
         const directTest = await fetch(`${apiBase}/v1/data/health`);
         const directResult = await directTest.json();
@@ -50,7 +64,7 @@ export default function DataTestPage() {
         
       } catch (err) {
         console.error('Error in data fetching:', err);
-        setError(err instanceof Error ? err.message : 'Unknown error');
+        setError(err instanceof Error ? err.message : 'Unknown error occurred');
         setConnectionTest({
           status: 'error',
           message: err instanceof Error ? err.message : 'Unknown error'
@@ -355,7 +369,7 @@ export default function DataTestPage() {
           <h2 className="text-2xl font-semibold mb-4">Debug Information</h2>
           <div className="space-y-2 text-sm">
             <p><strong>Frontend URL:</strong> http://localhost:3002</p>
-            <p><strong>API URL:</strong> {(typeof window !== 'undefined' ? (await import('@/lib/runtimeEnv')).getPublicApiBase() : (process.env.NEXT_PUBLIC_API_URL || 'http://129.232.243.210:8000'))}</p>
+            <p><strong>API URL:</strong> {apiUrl}</p>
             <p><strong>API Health:</strong> /v1/data/health</p>
             <p><strong>Browser Console:</strong> Check for additional error messages</p>
             <p><strong>CORS Status:</strong> {connectionTest?.status === 'success' ? 'Working' : 'May have issues'}</p>

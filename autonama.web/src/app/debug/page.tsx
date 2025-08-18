@@ -20,7 +20,7 @@ export default function DebugPage() {
         const data = await response.json();
         setApiTest({ success: true, data });
       } catch (error) {
-        setApiTest({ success: false, error: error.message });
+        setApiTest({ success: false, error: error instanceof Error ? error.message : 'Unknown error' });
       }
     };
 
