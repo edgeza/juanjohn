@@ -484,3 +484,35 @@
 2025-08-18 15:05:29,435 - INFO - Docker ingestion completed successfully!
 2025-08-18 15:05:29,435 - INFO - Data summary: {'total_alerts': 97, 'total_analytics': 97, 'total_assets': 97, 'has_summary': True}
 2025-08-18 15:05:29,436 - INFO - Data available at: C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data
+2025-08-19 11:21:59,789 - INFO - Starting Docker ingestion process...
+2025-08-19 11:21:59,791 - INFO - Found latest optimization run: optimization_run_20250819_104728
+2025-08-19 11:21:59,809 - INFO - Loaded 96 alerts from alerts_20250819_104728.json
+2025-08-19 11:21:59,824 - INFO - Loaded analytics from analytics_20250819_104728.json
+2025-08-19 11:21:59,840 - INFO - Loaded plots data from plots_data_20250819_104728.json
+2025-08-19 11:21:59,855 - INFO - Loaded summary from summary_20250819_104728.json
+2025-08-19 11:21:59,876 - INFO - Saved main data to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\optimization_data.json
+2025-08-19 11:21:59,884 - INFO - Saved alerts to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\api\alerts.json
+2025-08-19 11:21:59,890 - INFO - Saved analytics to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\api\analytics.json
+2025-08-19 11:21:59,893 - INFO - Saved summary to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\api\summary.json
+2025-08-19 11:21:59,898 - INFO - Saved assets to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\api\assets.json
+2025-08-19 11:21:59,975 - INFO - Saved 96 individual asset files
+2025-08-19 11:21:59,976 - INFO - Created ingestion manifest: C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\ingestion_manifest.json
+2025-08-19 11:21:59,976 - INFO - Docker ingestion completed successfully!
+2025-08-19 11:21:59,976 - INFO - Data summary: {'total_alerts': 96, 'total_analytics': 96, 'total_assets': 96, 'has_summary': True}
+2025-08-19 11:21:59,976 - INFO - Data available at: C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data
+2025-08-19 11:58:22,222 - INFO - Starting Docker ingestion process...
+2025-08-19 11:58:22,225 - INFO - Found latest optimization run: optimization_run_20250819_114703
+2025-08-19 11:58:22,239 - INFO - Loaded 96 alerts from alerts_20250819_114703.json
+2025-08-19 11:58:22,255 - INFO - Loaded analytics from analytics_20250819_114703.json
+2025-08-19 11:58:22,268 - INFO - Loaded plots data from plots_data_20250819_114703.json
+2025-08-19 11:58:22,283 - INFO - Loaded summary from summary_20250819_114703.json
+2025-08-19 11:58:22,303 - INFO - Saved main data to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\optimization_data.json
+2025-08-19 11:58:22,310 - INFO - Saved alerts to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\api\alerts.json
+2025-08-19 11:58:22,315 - INFO - Saved analytics to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\api\analytics.json
+2025-08-19 11:58:22,317 - INFO - Saved summary to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\api\summary.json
+2025-08-19 11:58:22,320 - INFO - Saved assets to C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\api\assets.json
+2025-08-19 11:58:22,394 - INFO - Saved 96 individual asset files
+2025-08-19 11:58:22,394 - INFO - Created ingestion manifest: C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data\ingestion_manifest.json
+2025-08-19 11:58:22,395 - INFO - Docker ingestion completed successfully!
+2025-08-19 11:58:22,395 - INFO - Data summary: {'total_alerts': 96, 'total_analytics': 96, 'total_assets': 96, 'has_summary': True}
+2025-08-19 11:58:22,395 - INFO - Data available at: C:\Users\juan\OneDrive\Documents\GitHub\juanjohn\autonama.web\public\data

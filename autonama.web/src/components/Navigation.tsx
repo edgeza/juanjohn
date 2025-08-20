@@ -29,7 +29,7 @@ export default function Navigation() {
   ];
 
   const publicNavItems = [
-    { href: '/veriless', label: 'Project Veriless' }
+    // Removed veriless page
   ];
 
   useEffect(() => {
@@ -86,37 +86,18 @@ export default function Navigation() {
 
   return (
     <header className="flex items-center justify-between whitespace-nowrap border-b px-10 py-4 transition-all duration-500 glass" style={{ borderColor: 'var(--glass-border)', backgroundColor: 'var(--glass-bg)' }}>
-      <div className="flex items-center gap-4" style={{ color: 'var(--text-primary)' }}>
-        <div className="flex items-center gap-3">
-          <div className="relative w-8 h-8">
-            <Image
-              src="/logo.png"
-              alt="Autonama Research Logo"
-              width={32}
-              height={32}
-              className="object-contain"
-              priority
-            />
-          </div>
-          <h2 className="text-lg font-bold leading-tight tracking-tight text-glow">Autonama Research</h2>
+      <div className="flex items-center gap-3">
+        <div className="relative w-8 h-8">
+          <Image
+            src="/logo.png"
+            alt="Autonama Research Logo"
+            width={32}
+            height={32}
+            className="object-contain"
+            priority
+          />
         </div>
-        
-        {/* Project Veriless Link */}
-        <div className="ml-8">
-          {publicNavItems.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={`text-sm font-medium leading-normal transition-all duration-300 ${
-                pathname === item.href
-                  ? 'nav-link-active'
-                  : 'nav-link'
-              }`}
-            >
-              {item.label}
-            </Link>
-          ))}
-        </div>
+        <h2 className="text-lg font-bold leading-tight tracking-tight text-glow">Autonama Research</h2>
       </div>
 
       <div className="flex flex-1 justify-end gap-8">
