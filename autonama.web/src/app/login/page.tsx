@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { apiClient } from '@/lib/api';
+import { apiClient } from '@/lib/apiClient';
 import { useRouter } from 'next/navigation';
+import { useAuthStore } from '@/store/authStore';
 
 // Animated background component
 const AnimatedBackground = () => {
@@ -61,6 +62,7 @@ const FloatingCard = ({ children }: { children: React.ReactNode }) => {
 
 export default function LoginPage() {
   const router = useRouter();
+  const { loginStart, loginSuccess, loginFailure, isLoading: authLoading, error: authError } = useAuthStore();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
@@ -71,17 +73,25 @@ export default function LoginPage() {
     e.preventDefault();
     setIsLoading(true);
     setError(null);
+    loginStart();
+    
     try {
       const res = await apiClient.login({ username, password });
+      
       if (!res.user.has_access) {
         router.push('/pending-approval');
         return;
       }
       
-      // Force a page refresh to ensure middleware picks up the new cookie
-      window.location.href = '/dashboard';
+      // Store the authentication data
+      loginSuccess(res.user, res.access_token);
+      
+      // Redirect to dashboard
+      router.push('/dashboard');
     } catch (err: any) {
-      setError(err.message || 'Login failed');
+      const errorMessage = err.message || 'Login failed';
+      setError(errorMessage);
+      loginFailure(errorMessage);
     } finally {
       setIsLoading(false);
     }

@@ -5,6 +5,7 @@
  */
 
 // Export all stores
+export { useAuthStore } from './authStore';
 export { useAssetsStore } from './assetsStore';
 export { useSignalsStore } from './signalsStore';
 export { useOptimizationStore } from './optimizationStore';

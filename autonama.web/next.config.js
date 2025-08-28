@@ -37,8 +37,8 @@ const nextConfig = {
 
   // Environment variables
   env: {
-    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'http://129.232.243.210:8000',
-    NEXT_PUBLIC_WS_URL: process.env.NEXT_PUBLIC_WS_URL || 'ws://129.232.243.210:8000',
+    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000',
+    NEXT_PUBLIC_WS_URL: process.env.NEXT_PUBLIC_WS_URL || 'ws://localhost:8000',
   },
 
   // Webpack configuration
@@ -106,6 +106,8 @@ const nextConfig = {
       },
     ];
   },
+
+
 
   // Output configuration for standalone deployment
   output: 'standalone',

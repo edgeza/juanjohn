@@ -2,12 +2,13 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { apiClient } from '@/lib/api';
-import type { UserResponse } from '@/lib/api';
+import { apiClient } from '@/lib/apiClient';
+import type { UserResponse } from '@/types/user';
+import { useAuthStore } from '@/store/authStore';
 
 export default function ProfilePage() {
   const router = useRouter();
-  const [user, setUser] = useState<UserResponse | null>(null);
+  const { user, isAuthenticated, logout } = useAuthStore();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isEditing, setIsEditing] = useState(false);
@@ -20,35 +21,31 @@ export default function ProfilePage() {
   });
 
   useEffect(() => {
-    const loadProfile = async () => {
-      try {
-        const currentUser = await apiClient.getCurrentUser();
-        setUser(currentUser);
-        setEditForm(prev => ({
-          ...prev,
-          username: currentUser.username,
-          email: currentUser.email
-        }));
-      } catch (e: any) {
-        if (e.status === 401) {
-          router.replace('/login');
-          return;
-        }
-        setError(e.message || 'Failed to load profile');
-      } finally {
-        setLoading(false);
-      }
-    };
+    // Check if user is authenticated
+    if (!isAuthenticated || !user) {
+      router.replace('/login');
+      return;
+    }
 
-    loadProfile();
-  }, [router]);
+    // Set form data from user
+    setEditForm(prev => ({
+      ...prev,
+      username: user.username,
+      email: user.email
+    }));
+    setLoading(false);
+  }, [user, isAuthenticated, router]);
 
   const handleLogout = async () => {
     try {
       await apiClient.logout();
+      logout();
       router.replace('/login');
     } catch (e: any) {
-      setError(e.message || 'Failed to logout');
+      console.error('Logout failed:', e);
+      // Even if API fails, clear local state and redirect
+      logout();
+      router.replace('/login');
     }
   };
 

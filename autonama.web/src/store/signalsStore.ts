@@ -123,8 +123,7 @@ export const useSignalsStore = create<SignalsState>()(
           params.append('limit', limit.toString());
           
           const signals = await apiClient.get<Signal[]>(
-            `/v1/data/signals?${params}`,
-            { showErrorToast: false }
+            `/v1/data/signals?${params}`
           );
           
           set({ signals, isLoading: false });
@@ -142,8 +141,7 @@ export const useSignalsStore = create<SignalsState>()(
         
         try {
           const overview = await apiClient.get<MarketOverview>(
-            '/v1/data/market-overview',
-            { showErrorToast: false }
+            '/v1/data/market-overview'
           );
           set({ marketOverview: overview, isLoadingOverview: false });
         } catch (error: any) {

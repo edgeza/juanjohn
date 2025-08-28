@@ -5,26 +5,23 @@ import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import ThemeToggle from './ThemeToggle';
-import { apiClient } from '@/lib/api';
-import type { UserResponse } from '@/lib/api';
+import { apiClient } from '@/lib/apiClient';
+import type { UserResponse } from '@/types/user';
+import { useAuthStore } from '@/store/authStore';
 
 export default function Navigation() {
   const pathname = usePathname();
   const router = useRouter();
+  const { user, isAuthenticated, logout: logoutAction } = useAuthStore();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
-  const [user, setUser] = useState<UserResponse | null>(null);
   const [loading, setLoading] = useState(true);
 
   const navItems = [
     { href: '/dashboard', label: 'Dashboard' },
     ...(user ? [
-      { href: '/analytics', label: 'Analytics' },
       { href: '/alerts', label: 'Alerts' },
       { href: '/assets', label: 'Assets' },
-      { href: '/economic-calendar', label: 'Calendar' },
-      { href: '/news', label: 'News' },
-      { href: '/tutorials', label: 'Education' },
     ] : [])
   ];
 
@@ -36,20 +33,30 @@ export default function Navigation() {
     const checkAuth = async () => {
       try {
         console.log('[Navigation] Checking authentication...');
-        const currentUser = await apiClient.getCurrentUser();
-        console.log('[Navigation] User authenticated:', currentUser);
-        setUser(currentUser);
         
-        // If user is authenticated and on login/signup pages, redirect to dashboard
-        if (currentUser && (pathname === '/login' || pathname === '/signup')) {
-          router.push('/dashboard');
+        // If we have a user in the store, use it
+        if (user && isAuthenticated) {
+          console.log('[Navigation] User authenticated from store:', user);
+          
+          // If user is authenticated and on login/signup pages, redirect to dashboard
+          if (pathname === '/login' || pathname === '/signup') {
+            router.push('/dashboard');
+          }
+        } else {
+          // Try to get current user from API
+          const currentUser = await apiClient.getCurrentUser();
+          console.log('[Navigation] User authenticated from API:', currentUser);
+          
+          // If user is authenticated and on login/signup pages, redirect to dashboard
+          if (currentUser && (pathname === '/login' || pathname === '/signup')) {
+            router.push('/dashboard');
+          }
         }
       } catch (e) {
         console.log('[Navigation] Authentication failed:', e);
-        setUser(null);
         // If we're on a protected route and not authenticated, redirect to dashboard
         if (typeof window !== 'undefined') {
-          const protectedRoutes = ['/profile', '/settings', '/admin', '/analytics', '/alerts', '/assets', '/economic-calendar', '/news', '/tutorials', '/signals', '/optimization', '/billing', '/subscribe'];
+          const protectedRoutes = ['/profile', '/settings', '/admin', '/alerts', '/assets', '/signals', '/optimization', '/billing', '/subscribe'];
           if (protectedRoutes.some(route => pathname.startsWith(route))) {
             router.push('/dashboard');
           }
@@ -60,7 +67,7 @@ export default function Navigation() {
     };
 
     checkAuth();
-  }, [pathname, router]);
+  }, [pathname, router, user, isAuthenticated]);
 
   // Add a separate effect to check auth when the component mounts or when user changes
   useEffect(() => {
@@ -69,12 +76,18 @@ export default function Navigation() {
 
   const handleLogout = async () => {
     try {
+      // Call the API logout endpoint
       await apiClient.logout();
-      setUser(null);
+      // Clear the local auth state
+      logoutAction();
+      // Close dropdown and redirect
       setIsProfileDropdownOpen(false);
       router.push('/login');
     } catch (e) {
       console.error('Logout failed:', e);
+      // Even if API fails, clear local state and redirect
+      logoutAction();
+      router.push('/login');
     }
   };
 

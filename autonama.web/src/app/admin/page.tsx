@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { apiClient } from '@/lib/api';
-import type { UserResponse } from '@/lib/api';
+import { apiClient } from '@/lib/apiClient';
+import type { UserResponse } from '@/types/user';
 import { useRouter } from 'next/navigation';
 
 type AdminUser = { 

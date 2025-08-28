@@ -54,14 +54,12 @@ export const useAssetsStore = create<AssetsState>((set, get) => ({
     set({ isLoading: true, error: null });
     
     try {
-      const response = await apiClient.get('/data/assets', {
-        params: { page, limit }
-      });
+      const response = await apiClient.getAssets(page, limit);
       
       // Debug logging
       console.log('API Response:', response);
       
-      // The API client returns response.data, so we need to access the data directly
+      // The API client returns the response directly
       const data = response as any;
       console.log('Processed data:', data);
       console.log('Assets count:', data.assets?.length || 0);

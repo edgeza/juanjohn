@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { apiClient } from '@/lib/api';
+import { apiClient } from '@/lib/apiClient';
 import { useRouter } from 'next/navigation';
 
 // Animated background component

@@ -2,12 +2,13 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { apiClient } from '@/lib/api';
-import type { UserResponse } from '@/lib/api';
+import { apiClient } from '@/lib/apiClient';
+import type { UserResponse } from '@/types/user';
+import { useAuthStore } from '@/store/authStore';
 
 export default function SettingsPage() {
   const router = useRouter();
-  const [user, setUser] = useState<UserResponse | null>(null);
+  const { user, isAuthenticated } = useAuthStore();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [settings, setSettings] = useState({
@@ -20,28 +21,19 @@ export default function SettingsPage() {
   });
 
   useEffect(() => {
-    const loadSettings = async () => {
-      try {
-        const currentUser = await apiClient.getCurrentUser();
-        setUser(currentUser);
-        // Load user settings from localStorage or API
-        const savedSettings = localStorage.getItem('userSettings');
-        if (savedSettings) {
-          setSettings(JSON.parse(savedSettings));
-        }
-      } catch (e: any) {
-        if (e.status === 401) {
-          router.replace('/login');
-          return;
-        }
-        setError(e.message || 'Failed to load settings');
-      } finally {
-        setLoading(false);
-      }
-    };
+    // Check if user is authenticated
+    if (!isAuthenticated || !user) {
+      router.replace('/login');
+      return;
+    }
 
-    loadSettings();
-  }, [router]);
+    // Load user settings from localStorage
+    const savedSettings = localStorage.getItem('userSettings');
+    if (savedSettings) {
+      setSettings(JSON.parse(savedSettings));
+    }
+    setLoading(false);
+  }, [user, isAuthenticated, router]);
 
   const handleSettingChange = (key: string, value: any) => {
     const newSettings = { ...settings, [key]: value };

@@ -2,7 +2,36 @@
 
 import React, { useState, useEffect } from 'react';
 import { TrendingUp, TrendingDown, Minus, Activity, Target, Zap, RefreshCw, AlertTriangle, CheckCircle } from 'lucide-react';
-import { apiClient, getSignalColor, getSignalBgColor, formatPrice, formatPercentage } from '@/lib/api';
+import { apiClient } from '@/lib/apiClient';
+
+// Utility functions
+const getSignalColor = (signal: string) => {
+  switch (signal.toLowerCase()) {
+    case 'buy': return 'text-green-500';
+    case 'sell': return 'text-red-500';
+    case 'hold': return 'text-yellow-500';
+    default: return 'text-gray-500';
+  }
+};
+
+const getSignalBgColor = (signal: string) => {
+  switch (signal.toLowerCase()) {
+    case 'buy': return 'bg-green-500/10 border-green-500/20';
+    case 'sell': return 'bg-red-500/10 border-red-500/20';
+    case 'hold': return 'bg-yellow-500/10 border-yellow-500/20';
+    default: return 'bg-gray-500/10 border-gray-500/20';
+  }
+};
+
+const formatPrice = (price: number) => {
+  if (price >= 1) return `$${price.toFixed(2)}`;
+  if (price >= 0.01) return `$${price.toFixed(4)}`;
+  return `$${price.toFixed(8)}`;
+};
+
+const formatPercentage = (value: number) => {
+  return `${value.toFixed(2)}%`;
+};
 
 interface SignalData {
   symbol: string;
